@@ -10,7 +10,7 @@ function requestJson($jsonToWrite, $array) {
             array_splice($array, $i + 1, 1);
         }
     }
-// to be continued.. references
+// to be continued.. referencesshgg
 /*
     for ($i = 0; $i < count($array) - 1; $i++) {
         $title = $array[$i]->Title;
