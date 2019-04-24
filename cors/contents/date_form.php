@@ -1,7 +1,58 @@
 <?php
 $datetime = new DateTime();
+$releaseDate_array = [];
 $actual_year = $datetime->format("Y");
-$releaseDate_array = explode(" ", $game->ReleaseDate);
+if (!isset($_POST["game"])) {
+    $actual_day = $datetime->format("d");
+    $actual_month = $datetime->format("m");
+    switch ($actual_month) {
+        case "01":
+            $actual_month = "January";
+            break;
+        case "02":
+            $actual_month = "February";
+            break;
+        case "03":
+            $actual_month = "March";
+            break;
+        case "04":
+            $actual_month = "April";
+            break;
+        case "05":
+            $actual_month = "May";
+            break;
+        case "06":
+            $actual_month = "June";
+            break;
+        case "07":
+            $actual_month = "July";
+            break;
+        case "08":
+            $actual_month = "August";
+            break;
+        case "09":
+            $actual_month = "September";
+            break;
+        case "11":
+            $actual_month = "October";
+            break;
+        case "11":
+            $actual_month = "November";
+            break;
+        case "12":
+            $actual_month = "December";
+            break;
+        
+        default:
+            $actual_month = "January";
+            break;
+    }
+    $releaseDate_array[]= $actual_day;
+    $releaseDate_array[]= $actual_month;
+    $releaseDate_array[]= $actual_year;
+} else {
+    $releaseDate_array = explode(" ", $game->ReleaseDate);
+}
 $releaseDate_day = $releaseDate_array[0];
 $releaseDate_month = $releaseDate_array[1];
 $releaseDate_year = $releaseDate_array[2];

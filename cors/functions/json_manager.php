@@ -2,7 +2,7 @@
 $json = "datas/sql_request.json";
 
 function requestJson($jsonToWrite, $array) {
-
+/*
     // references
     function games_reference($array) {
         $letter = "A";
@@ -32,6 +32,7 @@ function requestJson($jsonToWrite, $array) {
         }
         return $references;
     }
+*/
 /*
     $games_references = games_reference($array);
 
