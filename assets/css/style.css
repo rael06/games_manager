@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_content {
+    font-family: tahoma;
+    background-image: url("../pictures/die_retry_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginDiv {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background: rgb(182, 40, 40);
+    color: white;
+    margin: 150px auto;
+    width: 80%;
+}
+
+.loginDiv > h2 {
+    margin-top: 5vh;
+}
+
+.login_message {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 100px;
+}
+
+.loginForm {
+    display: grid;
+    justify-content: center;
+    margin: 50px;
+}
+
+label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.login_input {
+    width: 200px;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 18px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.login_submit {
+    margin: 30px auto;
+    width: 50%;
+    border: 1px solid grey;
+    padding: 5px 2px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* actions */
+.forms {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.game_form > * {
+    text-align: center;
+}
+
+.field label {
+    margin: 0;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.date_form {
+    display: flex;
+}
+
+/* table_display */
+.display {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.search_in_array {
+    justify-self: center;
+    padding: 5px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.table_full {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table_full * {
+    word-break: break-word;
+}
+
+.table_full tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 8fr 2fr;
+}
+
+.table_full td,
+.table_full th {
+    border-right: 2px solid rgba(160, 135, 97, 0.3);
+    min-height: 80px;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+.table_header {
+    width: 100%;
+    border-top-left-radius: 10px;
+    color: white;
+}
+
+.scrollbar_width_fixer {
+    border-top-right-radius: 10px;
+}
+
+.scrollbar_width_fixer,
+.table_header {
+    background: rgb(126, 11, 11);
+}
+
+.table_head_plus_scrollbar_fixer {
+    display: flex;
+}
+
+.div_to_scroll { /*toscrolltablebody*/
+    height: 80vh;
+    overflow-y: scroll;
+    border-bottom-left-radius: 10px;
+}
+input[type="checkbox"] {
+    width: 20px; /*Desired width*/
+    height: 20px; /*Desired height*/
+}
+.table_body {
+    background: rgb(243, 211, 211);
+}
+
+.table_body tr:nth-of-type(2n) {
+    background: rgb(182, 40, 40);
+    color: white;
+}
+
+.table_full .kinds {
+    border-right: none;
+}
+
+.table_full .dates,
+.table_full .developers,
+.table_full .platforms,
+.table_full .constructors,
+.table_full .publishers,
+.table_full .references {
+    display: none;
+}
+
+footer > div {
+    margin-top: 50px;
+    width: 100%;
+    height: 15vh;
+    background: rgb(52, 61, 61);
+    color: white;
+    text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+    .table_full .dates,
+    .table_full .developers,
+    .table_full .platforms,
+    .table_full .constructors,
+    .table_full .publishers,
+    .table_full .references {
+        display: table-cell;
+        align-items: center;
+        display: grid;
+        justify-content: center;
+    }
+
+    .table_full .kinds {
+        border-right: 2px solid rgba(160, 135, 97, 0.3);
+    }
+    
+    .table_full th:last-of-type, .table_full td:last-of-type {
+        border-right: none;
+    }
+
+    .table_full tr {
+        grid-template-columns: 1fr 1fr 5fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    }
+}
