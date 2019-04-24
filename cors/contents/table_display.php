@@ -41,7 +41,7 @@
                             <td class="constructors">{{ game.Constructor }}</td>
                             <td class="kinds">{{ game.Kinds }}</td>
                             <td class="publishers">{{ game.Publishers }}</td>
-                            <td class="references"></td>
+                            <td class="references">{{ game.References }}</td>
                         </tr>
                     </tbody>
                 </table>

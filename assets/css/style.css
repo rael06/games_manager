@@ -6,7 +6,7 @@
 
 .main_content {
     font-family: tahoma;
-    background-image: url("../pictures/die_retry_background.jpg");
+    /*background-image: url("../pictures/die_retry_background.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
 }

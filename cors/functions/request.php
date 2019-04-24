@@ -6,19 +6,21 @@ $query = $bdd->query(
     'SELECT videogames.ID,
     Title, 
     ReleaseDate,
+    Ref_games AS "References",
     developers.NAME AS "Developers", 
     platform.NAME AS "Platform",
-    platform.abbreviation AS "abbreviation",
+    platform.abbreviation AS "Abbreviation",
     constructor.NAME AS "Constructor", 
-    genres.NAME AS "Kinds",
+    GROUP_CONCAT(genres.NAME SEPARATOR ", ") AS "Kinds",
     publishers.NAME AS "Publishers"
     FROM videogames
-    INNER JOIN developers ON developers.id = idDeveloper
-    INNER JOIN platform ON idPlatform = platform.id
-    INNER JOIN constructor ON idConstructor = constructor.id
-    INNER JOIN gamesgenres ON idVideoGame = videogames.id
-    INNER JOIN genres ON idGenre = genres.id
-    INNER JOIN publishers ON idPublisher = publishers.id;'
+    LEFT OUTER JOIN developers ON developers.id = idDeveloper
+    LEFT OUTER JOIN platform ON idPlatform = platform.id
+    LEFT OUTER JOIN constructor ON idConstructor = constructor.id
+    LEFT OUTER JOIN gamesgenres ON idVideoGame = videogames.id
+    LEFT OUTER JOIN genres ON idGenre = genres.id
+    LEFT OUTER JOIN publishers ON idPublisher = publishers.id
+    GROUP BY videogames.ID;'
     );
 
 require_once "class/Games.php";

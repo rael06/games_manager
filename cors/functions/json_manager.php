@@ -2,25 +2,46 @@
 $json = "datas/sql_request.json";
 
 function requestJson($jsonToWrite, $array) {
-    for ($i = 0; $i < count($array) - 1; $i++) {
-        $id = $array[$i]->ID;
-        $idNext = $array[$i + 1]->ID;
-        if ($id === $idNext) {
-            $array[$i]->Kinds = $array[$i]->Kinds . " " . $array[$i + 1]->Kinds;
-            array_splice($array, $i + 1, 1);
+
+    // references
+    function games_reference($array) {
+        $letter = "A";
+        $num = 1;
+        $references = [];
+        $title_1 = $array[1]->Title;
+        $title_0 = $array[0]->Title;
+        $abbreviation = $array[1]->Abbreviation;
+        $reference = $abbreviation . str_pad($num, 3, "0", STR_PAD_LEFT) . "A";
+        if ($title_1 !== $title_0) {
+            $num++;
         }
+        $references[] = $reference;
+
+        for ($i = 1; $i < count($array); $i++) {
+            $title = $array[$i]->Title;
+            $titlePrev = $array[$i - 1]->Title;
+            $abbreviation = $array[$i]->Abbreviation;
+            if ($title !== $titlePrev) {
+                $num++;
+                $letter = "A";
+            } else {
+                $letter++;
+            }
+            $reference = $abbreviation . str_pad($num, 3, "0", STR_PAD_LEFT) . $letter;
+            $references[] = $reference;
+        }
+        return $references;
     }
-// to be continued.. referencesshgg
 /*
-    for ($i = 0; $i < count($array) - 1; $i++) {
-        $title = $array[$i]->Title;
-        $titleNext = $array[$i + 1]->Title;
-        $abbreviation = $array[$i]->abbreviation;
-        if ($title === $titleNext) {
-            //$array[$i]->Kinds = $array[$i]->Kinds . " " . $array[$i + 1]->Kinds;
-        } else {
-            echo $abbreviation . " : " . $i . "<br>";
-        }
+    $games_references = games_reference($array);
+
+    $bdd_test = new PDO("mysql:host=localhost;dbname=videogames", "root", "", array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
+
+    for($i = 0; $i < count($games_references); $i++) {
+        $query_test = "UPDATE videogames SET Ref_games = '" . $games_references[$i] . "' WHERE id = " . ($i + 1);
+        var_dump($query_test);
+        $query = $bdd_test->query($query_test);
+        var_dump($query);
     }
 */
 
