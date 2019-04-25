@@ -3,16 +3,29 @@ session_start();
 var_dump($_POST);
 var_dump($_SESSION);
 $bdd = new PDO("mysql:host=localhost;dbname=videogames", "root", "", array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
-/*for($i = 1; $i <= count($_SESSION["games"]); $i++) {
+
+for($i = 1; $i <= count($_SESSION["games"]); $i++) {
     $g_id = intval($_SESSION["game_id_" . $i]);
     $g_title = $_POST["title_" . $i];
     $test = "UPDATE videogames SET Title = '" . $g_title . "' WHERE videogames.id = " . $g_id;
     var_dump($test);
     $bdd->query($test);
-}*/
+}
+
 //var_dump($query->fetchAll(PDO::FETCH_OBJ));
-
-
+/*
+function ref_remaker($pdo) {
+    $query_string = "SELECT platform.name FROM Platform";
+    $ref_query = $pdo->query($query_string);
+    $selected = $ref_query->fetchAll(PDO::FETCH_OBJ);
+    
+    for ($i = 0; $i < count($selected); $i++) {
+        
+    }
+    
+}
+ref_remaker($bdd);
+*/
 /*
 $back_up_json = file_get_contents("../../datas/back_up.json");
 $back_up_decoded = json_decode($back_up_json);

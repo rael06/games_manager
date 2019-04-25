@@ -1,7 +1,7 @@
 var datas = [
     {
         "ID": "1",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "18 Wheeler American Pro Trucker",
         "ReleaseDate": "1 June 2001",
         "References": "DCA001A",
         "Developers": "AM2",
@@ -13,7 +13,7 @@ var datas = [
     },
     {
         "ID": "2",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "18 Wheeler American Pro Trucker",
         "ReleaseDate": "1 June 2001",
         "References": "DCA001B",
         "Developers": "AM2",
@@ -25,7 +25,7 @@ var datas = [
     },
     {
         "ID": "3",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Alone in the Dark: The New Nightmare",
         "ReleaseDate": "8 May 2005",
         "References": "DCA002A",
         "Developers": "Darkworks",
@@ -37,7 +37,7 @@ var datas = [
     },
     {
         "ID": "4",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Aqua GT",
         "ReleaseDate": "22 December 2000",
         "References": "DCA003A",
         "Developers": "East Point Software",
@@ -49,7 +49,7 @@ var datas = [
     },
     {
         "ID": "5",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Blue Stinger",
         "ReleaseDate": "25 March 1999",
         "References": "DCA004A",
         "Developers": "Climax Graphics",
@@ -61,7 +61,7 @@ var datas = [
     },
     {
         "ID": "6",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Buggy Heat",
         "ReleaseDate": "9 September 1999",
         "References": "DCA005A",
         "Developers": "CSK Research Institute",
@@ -73,7 +73,7 @@ var datas = [
     },
     {
         "ID": "7",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Capcom vs. SNK",
         "ReleaseDate": "15 December 2000",
         "References": "DCA006A",
         "Developers": "Capcom",
@@ -85,7 +85,7 @@ var datas = [
     },
     {
         "ID": "8",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Chicken Run",
         "ReleaseDate": "14 November 2000",
         "References": "DCA007A",
         "Developers": "Blitz Games",
@@ -97,7 +97,7 @@ var datas = [
     },
     {
         "ID": "9",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "ChuChu Rocket!",
         "ReleaseDate": "11 November 1999",
         "References": "DCA008A",
         "Developers": "Sonic Team",
@@ -109,7 +109,7 @@ var datas = [
     },
     {
         "ID": "10",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Crazy Taxi 2",
         "ReleaseDate": "29 May 2001",
         "References": "DCA009A",
         "Developers": "Hitmaker",
@@ -121,7 +121,7 @@ var datas = [
     },
     {
         "ID": "11",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dead or Alive 2",
         "ReleaseDate": "18 March 2000",
         "References": "DCA010A",
         "Developers": "Team Ninja",
@@ -133,7 +133,7 @@ var datas = [
     },
     {
         "ID": "12",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Ecco the Dolphin: Defender of the Future",
         "ReleaseDate": "11 September 2000",
         "References": "DCA011A",
         "Developers": "Appaloosa Interactive",
@@ -145,7 +145,7 @@ var datas = [
     },
     {
         "ID": "13",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "F1 World Grand Prix",
         "ReleaseDate": "1 May 2000",
         "References": "DCA012A",
         "Developers": "Video System Co.",
@@ -157,7 +157,7 @@ var datas = [
     },
     {
         "ID": "14",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Fur Fighters",
         "ReleaseDate": "12 July 2000",
         "References": "DCA013A",
         "Developers": "Bizarre Creations",
@@ -169,7 +169,7 @@ var datas = [
     },
     {
         "ID": "15",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Grandia II",
         "ReleaseDate": "11 December 2000",
         "References": "DCA014A",
         "Developers": "Game Arts",
@@ -181,7 +181,7 @@ var datas = [
     },
     {
         "ID": "16",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Grandia II (beta)",
         "ReleaseDate": "11 December 2000",
         "References": "DCA015A",
         "Developers": "Game Arts",
@@ -193,7 +193,7 @@ var datas = [
     },
     {
         "ID": "17",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Headhunter",
         "ReleaseDate": "16 November 2001",
         "References": "DCA016A",
         "Developers": "Amuze",
@@ -205,7 +205,7 @@ var datas = [
     },
     {
         "ID": "18",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Hidden & Dangerous",
         "ReleaseDate": "10 July 2000",
         "References": "DCA017A",
         "Developers": "Illusion Softworks",
@@ -217,7 +217,7 @@ var datas = [
     },
     {
         "ID": "19",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Jimmy White's 2: Cue Ball",
         "ReleaseDate": "2000",
         "References": "DCA018A",
         "Developers": "Awesome Developments",
@@ -229,7 +229,7 @@ var datas = [
     },
     {
         "ID": "20",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Les Fous Du Volant",
         "ReleaseDate": null,
         "References": "DCA019A",
         "Developers": "Aucun",
@@ -241,7 +241,7 @@ var datas = [
     },
     {
         "ID": "21",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Maken X",
         "ReleaseDate": "25 April 2000",
         "References": "DCA020A",
         "Developers": "Atlus",
@@ -253,7 +253,7 @@ var datas = [
     },
     {
         "ID": "22",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Marvel vs. Capcom: Clash of Super Heroes",
         "ReleaseDate": "25 March 1999",
         "References": "DCA021A",
         "Developers": "Capcom",
@@ -265,7 +265,7 @@ var datas = [
     },
     {
         "ID": "23",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Marvel vs. Capcom: Clash of Super Heroes",
         "ReleaseDate": "25 March 1999",
         "References": "DCA021B",
         "Developers": "Capcom",
@@ -277,7 +277,7 @@ var datas = [
     },
     {
         "ID": "24",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Metropolis Street Racer",
         "ReleaseDate": "16 January 2001",
         "References": "DCA022A",
         "Developers": "Bizarre Creations",
@@ -289,7 +289,7 @@ var datas = [
     },
     {
         "ID": "25",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NBA 2K",
         "ReleaseDate": "10 November 1999",
         "References": "DCA023A",
         "Developers": "Visual Concepts",
@@ -301,7 +301,7 @@ var datas = [
     },
     {
         "ID": "26",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NHL 2K",
         "ReleaseDate": "2000",
         "References": "DCA024A",
         "Developers": "Black Box Games",
@@ -313,7 +313,7 @@ var datas = [
     },
     {
         "ID": "27",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NHL 2K",
         "ReleaseDate": "2000",
         "References": "DCA024B",
         "Developers": "Black Box Games",
@@ -325,7 +325,7 @@ var datas = [
     },
     {
         "ID": "28",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Omikron: the Nomad Soul",
         "ReleaseDate": "21 June 2000",
         "References": "DCA025A",
         "Developers": "Quantic Dream",
@@ -337,7 +337,7 @@ var datas = [
     },
     {
         "ID": "29",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Outtrigger",
         "ReleaseDate": "3 August 2001",
         "References": "DCA026A",
         "Developers": "AM2",
@@ -349,7 +349,7 @@ var datas = [
     },
     {
         "ID": "30",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "POD 2",
         "ReleaseDate": "2000",
         "References": "DCA027A",
         "Developers": "Aucun",
@@ -361,7 +361,7 @@ var datas = [
     },
     {
         "ID": "31",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "POD 2",
         "ReleaseDate": "2000",
         "References": "DCA027B",
         "Developers": "Aucun",
@@ -373,7 +373,7 @@ var datas = [
     },
     {
         "ID": "32",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Phantasy Star Online",
         "ReleaseDate": "21 December 2000",
         "References": "DCA028A",
         "Developers": "Sonic Team",
@@ -385,7 +385,7 @@ var datas = [
     },
     {
         "ID": "33",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Power Stone 2",
         "ReleaseDate": "27 April 2000",
         "References": "DCA029A",
         "Developers": "Capcom",
@@ -397,7 +397,7 @@ var datas = [
     },
     {
         "ID": "34",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Project Justice",
         "ReleaseDate": "12 April 2001",
         "References": "DCA030A",
         "Developers": "Capcom",
@@ -409,7 +409,7 @@ var datas = [
     },
     {
         "ID": "35",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Quake III: Arena",
         "ReleaseDate": "24 October 2000",
         "References": "DCA031A",
         "Developers": "id Software",
@@ -421,7 +421,7 @@ var datas = [
     },
     {
         "ID": "36",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Railroad Tycoon II",
         "ReleaseDate": "1 July 2000",
         "References": "DCA032A",
         "Developers": "Tremor Entertainment",
@@ -433,7 +433,7 @@ var datas = [
     },
     {
         "ID": "37",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Rayman 2: The Great Escape",
         "ReleaseDate": "29 February 2000",
         "References": "DCA033A",
         "Developers": "Ubisoft",
@@ -445,7 +445,7 @@ var datas = [
     },
     {
         "ID": "38",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Ready 2 Rumble Boxing: Round 2",
         "ReleaseDate": "2000",
         "References": "DCA034A",
         "Developers": "Midway",
@@ -457,7 +457,7 @@ var datas = [
     },
     {
         "ID": "39",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Red Dog: Superior Firepower",
         "ReleaseDate": "2000",
         "References": "DCA035A",
         "Developers": "Argonaut Software",
@@ -469,7 +469,7 @@ var datas = [
     },
     {
         "ID": "40",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Resident Evil CODE: Veronica",
         "ReleaseDate": "25 April 2000",
         "References": "DCA036A",
         "Developers": "Capcom",
@@ -481,7 +481,7 @@ var datas = [
     },
     {
         "ID": "41",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sega Extreme Sports",
         "ReleaseDate": "20 October 2000",
         "References": "DCA037A",
         "Developers": "Innerloop Studios",
@@ -493,7 +493,7 @@ var datas = [
     },
     {
         "ID": "42",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sega GT",
         "ReleaseDate": "28 August 2000",
         "References": "DCA038A",
         "Developers": "Sega",
@@ -505,7 +505,7 @@ var datas = [
     },
     {
         "ID": "43",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Shenmue",
         "ReleaseDate": "10 November 2000",
         "References": "DCA039A",
         "Developers": "AM2",
@@ -517,7 +517,7 @@ var datas = [
     },
     {
         "ID": "44",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Silver",
         "ReleaseDate": "2000",
         "References": "DCA040A",
         "Developers": "Spiral House",
@@ -529,7 +529,7 @@ var datas = [
     },
     {
         "ID": "45",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Skies of Arcadia",
         "ReleaseDate": "5 October 2000",
         "References": "DCA041A",
         "Developers": "OverWorks",
@@ -541,7 +541,7 @@ var datas = [
     },
     {
         "ID": "46",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Skies of Arcadia",
         "ReleaseDate": "5 October 2000",
         "References": "DCA041B",
         "Developers": "OverWorks",
@@ -553,7 +553,7 @@ var datas = [
     },
     {
         "ID": "47",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sonic Adventure",
         "ReleaseDate": "23 December 1998",
         "References": "DCA042A",
         "Developers": "Sonic Team",
@@ -565,7 +565,7 @@ var datas = [
     },
     {
         "ID": "48",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sonic Adventure 2",
         "ReleaseDate": "23 June 2001",
         "References": "DCA043A",
         "Developers": "Sonic Team",
@@ -577,7 +577,7 @@ var datas = [
     },
     {
         "ID": "49",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "SoulCalibur",
         "ReleaseDate": "9 September 1999",
         "References": "DCA044A",
         "Developers": "Namco",
@@ -589,7 +589,7 @@ var datas = [
     },
     {
         "ID": "50",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "South Park Rally",
         "ReleaseDate": "2000",
         "References": "DCA045A",
         "Developers": "Tantalus Interactive",
@@ -601,7 +601,7 @@ var datas = [
     },
     {
         "ID": "51",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Space Channel 5",
         "ReleaseDate": "16 December 1999",
         "References": "DCA046A",
         "Developers": "UGA",
@@ -613,7 +613,7 @@ var datas = [
     },
     {
         "ID": "52",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Star Wars Episode I: Racer",
         "ReleaseDate": "28 August 2000",
         "References": "DCA047A",
         "Developers": "LucasArts",
@@ -625,7 +625,7 @@ var datas = [
     },
     {
         "ID": "53",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Magnetic Neo",
         "ReleaseDate": "3 February 2000",
         "References": "DCA048A",
         "Developers": "Genki Co. Ltd.",
@@ -637,7 +637,7 @@ var datas = [
     },
     {
         "ID": "54",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sydney 2000",
         "ReleaseDate": "1 September 2000",
         "References": "DCA049A",
         "Developers": "Attention To Detail Limited",
@@ -649,7 +649,7 @@ var datas = [
     },
     {
         "ID": "55",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Test Drive Le Mans",
         "ReleaseDate": "7 November 2000",
         "References": "DCA050A",
         "Developers": "Melbourne House Software",
@@ -661,7 +661,7 @@ var datas = [
     },
     {
         "ID": "56",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Tomb Raider: The Last Revelation",
         "ReleaseDate": "24 March 2000",
         "References": "DCA051A",
         "Developers": "Core Design",
@@ -673,7 +673,7 @@ var datas = [
     },
     {
         "ID": "57",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Tony Hawk's Skateboarding",
         "ReleaseDate": "29 June 2000",
         "References": "DCA052A",
         "Developers": "Crave",
@@ -685,7 +685,7 @@ var datas = [
     },
     {
         "ID": "58",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "UEFA Dream Soccer",
         "ReleaseDate": "8 December 2000",
         "References": "DCA053A",
         "Developers": "Silicon Dreams",
@@ -697,7 +697,7 @@ var datas = [
     },
     {
         "ID": "59",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "V-Rally 2: Expert Edition",
         "ReleaseDate": "2000",
         "References": "DCA054A",
         "Developers": "Eden Studios",
@@ -709,7 +709,7 @@ var datas = [
     },
     {
         "ID": "60",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Vanishing Point",
         "ReleaseDate": "9 March 2000",
         "References": "DCA055A",
         "Developers": "Clockwork Games",
@@ -721,7 +721,7 @@ var datas = [
     },
     {
         "ID": "61",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Virtua Athlete 2K",
         "ReleaseDate": "25 August 2000",
         "References": "DCA056A",
         "Developers": "Climax Entertainment",
@@ -733,7 +733,7 @@ var datas = [
     },
     {
         "ID": "62",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Virtua Fighter 3tb: Project Berkley",
         "ReleaseDate": "14 October 1999",
         "References": "DCA057A",
         "Developers": "AM2",
@@ -745,7 +745,7 @@ var datas = [
     },
     {
         "ID": "63",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Virtua Striker 2",
         "ReleaseDate": "2 December 2000",
         "References": "DCA058A",
         "Developers": "AM2",
@@ -757,7 +757,7 @@ var datas = [
     },
     {
         "ID": "64",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Virtua Tennis",
         "ReleaseDate": "8 September 2000",
         "References": "DCA059A",
         "Developers": "AM3",
@@ -769,7 +769,7 @@ var datas = [
     },
     {
         "ID": "65",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Virtua Tennis 2",
         "ReleaseDate": "23 November 2001",
         "References": "DCA060A",
         "Developers": "Hitmaker",
@@ -781,7 +781,7 @@ var datas = [
     },
     {
         "ID": "66",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Zombie Revenge",
         "ReleaseDate": "31 December 1999",
         "References": "DCA061A",
         "Developers": "AM1",
@@ -793,7 +793,7 @@ var datas = [
     },
     {
         "ID": "67",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania II: Belmont's Revenge",
         "ReleaseDate": "12 August 1991",
         "References": "GB1062A",
         "Developers": "Konami",
@@ -805,7 +805,7 @@ var datas = [
     },
     {
         "ID": "68",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Donkey Kong Land",
         "ReleaseDate": "26 July 1995",
         "References": "GB1063A",
         "Developers": "Rare",
@@ -817,7 +817,7 @@ var datas = [
     },
     {
         "ID": "69",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Donkey Kong Land III",
         "ReleaseDate": "October 1997",
         "References": "GB1064A",
         "Developers": "Rareware",
@@ -829,7 +829,7 @@ var datas = [
     },
     {
         "ID": "70",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Double Dragon",
         "ReleaseDate": "1990",
         "References": "GB1065A",
         "Developers": "Technos Japan",
@@ -841,7 +841,7 @@ var datas = [
     },
     {
         "ID": "71",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Gargoyle's Quest",
         "ReleaseDate": "1990",
         "References": "GB1066A",
         "Developers": "Capcom",
@@ -853,7 +853,7 @@ var datas = [
     },
     {
         "ID": "72",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Kid Icarus: Of Myths and Monsters",
         "ReleaseDate": "1991",
         "References": "GB1067A",
         "Developers": "Nintendo",
@@ -865,7 +865,7 @@ var datas = [
     },
     {
         "ID": "73",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mega Man III",
         "ReleaseDate": "1992",
         "References": "GB1068A",
         "Developers": "Capcom",
@@ -877,7 +877,7 @@ var datas = [
     },
     {
         "ID": "74",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Metroid II: Return of Samus",
         "ReleaseDate": "26 August 1992",
         "References": "GB1069A",
         "Developers": "Nintendo",
@@ -889,7 +889,7 @@ var datas = [
     },
     {
         "ID": "75",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mystic Quest",
         "ReleaseDate": "1993",
         "References": "GB1070A",
         "Developers": "Square",
@@ -901,7 +901,7 @@ var datas = [
     },
     {
         "ID": "76",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Nintendo World Cup",
         "ReleaseDate": "1991",
         "References": "GB1071A",
         "Developers": "Technos Japan",
@@ -913,7 +913,7 @@ var datas = [
     },
     {
         "ID": "77",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Pok\u00e9mon Yellow Version",
         "ReleaseDate": "19 October 1999",
         "References": "GB1072A",
         "Developers": "Game Freak",
@@ -925,7 +925,7 @@ var datas = [
     },
     {
         "ID": "78",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Tetris",
         "ReleaseDate": "1 September 1989",
         "References": "GB1073A",
         "Developers": "Bullet-Proof Software",
@@ -937,7 +937,7 @@ var datas = [
     },
     {
         "ID": "79",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Castlevania Adventure",
         "ReleaseDate": "27 December 1990",
         "References": "GB1074A",
         "Developers": "Konami",
@@ -949,7 +949,7 @@ var datas = [
     },
     {
         "ID": "80",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda: Link's Awakening",
         "ReleaseDate": "18 November 1993",
         "References": "GB1075A",
         "Developers": "Nintendo",
@@ -961,7 +961,7 @@ var datas = [
     },
     {
         "ID": "81",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Breath of Fire",
         "ReleaseDate": "12 December 2001",
         "References": "GBA076A",
         "Developers": "Capcom",
@@ -973,7 +973,7 @@ var datas = [
     },
     {
         "ID": "82",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania Double Pack: Castlevania: Harmony of Dissonance + Castlevania: Aria of Sorrow",
         "ReleaseDate": "10 January 2006",
         "References": "GBA077A",
         "Developers": "Konami",
@@ -985,7 +985,7 @@ var datas = [
     },
     {
         "ID": "83",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Circle of the Moon",
         "ReleaseDate": "8 June 2001",
         "References": "GBA078A",
         "Developers": "Konami",
@@ -997,7 +997,7 @@ var datas = [
     },
     {
         "ID": "84",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Circle of the Moon",
         "ReleaseDate": "8 June 2001",
         "References": "GBA078B",
         "Developers": "Konami",
@@ -1009,7 +1009,7 @@ var datas = [
     },
     {
         "ID": "85",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Crash Bandicoot: Fusion",
         "ReleaseDate": null,
         "References": "GBA079A",
         "Developers": "Aucun",
@@ -1021,7 +1021,7 @@ var datas = [
     },
     {
         "ID": "86",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Disney's Chicken Little",
         "ReleaseDate": "19 October 2005",
         "References": "GBA080A",
         "Developers": "Aucun",
@@ -1033,7 +1033,7 @@ var datas = [
     },
     {
         "ID": "87",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Donkey Kong Country",
         "ReleaseDate": "10 June 2003",
         "References": "GBA081A",
         "Developers": "Nintendo",
@@ -1045,7 +1045,7 @@ var datas = [
     },
     {
         "ID": "88",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Donkey Kong Country 2: Diddy Kong's Quest",
         "ReleaseDate": "16 November 2004",
         "References": "GBA082A",
         "Developers": "Rare",
@@ -1057,7 +1057,7 @@ var datas = [
     },
     {
         "ID": "89",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Final Fantasy I & II: Dawn of Souls",
         "ReleaseDate": "29 November 2004",
         "References": "GBA083A",
         "Developers": "Square Enix",
@@ -1069,7 +1069,7 @@ var datas = [
     },
     {
         "ID": "90",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Final Fantasy IV Advance",
         "ReleaseDate": "13 December 2005",
         "References": "GBA084A",
         "Developers": "Square Enix",
@@ -1081,7 +1081,7 @@ var datas = [
     },
     {
         "ID": "91",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Final Fantasy Tactics Advance",
         "ReleaseDate": "11 September 2003",
         "References": "GBA085A",
         "Developers": "Square Enix",
@@ -1093,7 +1093,7 @@ var datas = [
     },
     {
         "ID": "92",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Final Fantasy V Advance",
         "ReleaseDate": "6 November 2006",
         "References": "GBA086A",
         "Developers": "Square Enix",
@@ -1105,7 +1105,7 @@ var datas = [
     },
     {
         "ID": "93",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Final Fight One",
         "ReleaseDate": "28 September 2001",
         "References": "GBA087A",
         "Developers": "Aucun",
@@ -1117,7 +1117,7 @@ var datas = [
     },
     {
         "ID": "94",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Fire Emblem",
         "ReleaseDate": "6 November 2003",
         "References": "GBA088A",
         "Developers": "Intelligent Systems",
@@ -1129,7 +1129,7 @@ var datas = [
     },
     {
         "ID": "95",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Fire Emblem: The Sacred Stones",
         "ReleaseDate": "23 May 2005",
         "References": "GBA089A",
         "Developers": "Intelligent Systems",
@@ -1141,7 +1141,7 @@ var datas = [
     },
     {
         "ID": "96",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Fire Emblem: The Sacred Stones",
         "ReleaseDate": "23 May 2005",
         "References": "GBA089B",
         "Developers": "Intelligent Systems",
@@ -1153,7 +1153,7 @@ var datas = [
     },
     {
         "ID": "97",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Golden Sun: The Lost Age",
         "ReleaseDate": "13 April 2003",
         "References": "GBA090A",
         "Developers": "Camelot",
@@ -1165,7 +1165,7 @@ var datas = [
     },
     {
         "ID": "98",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "King Kong",
         "ReleaseDate": "17 November 2005",
         "References": "GBA091A",
         "Developers": "Ubisoft",
@@ -1177,7 +1177,7 @@ var datas = [
     },
     {
         "ID": "99",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mario Kart Super Circuit",
         "ReleaseDate": "28 August 2001",
         "References": "GBA092A",
         "Developers": "Intelligent Systems",
@@ -1189,7 +1189,7 @@ var datas = [
     },
     {
         "ID": "100",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mario Kart Super Circuit",
         "ReleaseDate": "28 August 2001",
         "References": "GBA092B",
         "Developers": "Intelligent Systems",
@@ -1201,7 +1201,7 @@ var datas = [
     },
     {
         "ID": "101",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mega Man Zero 3",
         "ReleaseDate": "5 October 2004",
         "References": "GBA093A",
         "Developers": "Aucun",
@@ -1213,7 +1213,7 @@ var datas = [
     },
     {
         "ID": "102",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Metroid Fusion",
         "ReleaseDate": "19 November 2002",
         "References": "GBA094A",
         "Developers": "Nintendo",
@@ -1225,7 +1225,7 @@ var datas = [
     },
     {
         "ID": "103",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Metroid: Zero Mission",
         "ReleaseDate": "10 February 2004",
         "References": "GBA095A",
         "Developers": "Nintendo",
@@ -1237,7 +1237,7 @@ var datas = [
     },
     {
         "ID": "104",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 10: Zelda II: The Adventure of Link",
         "ReleaseDate": "26 October 2004",
         "References": "GBA096A",
         "Developers": "Nintendo",
@@ -1249,7 +1249,7 @@ var datas = [
     },
     {
         "ID": "105",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 10: Zelda II: The Adventure of Link",
         "ReleaseDate": "26 October 2004",
         "References": "GBA096B",
         "Developers": "Nintendo",
@@ -1261,7 +1261,7 @@ var datas = [
     },
     {
         "ID": "106",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 11: Dr. Mario",
         "ReleaseDate": "26 October 2004",
         "References": "GBA097A",
         "Developers": "Nintendo",
@@ -1273,7 +1273,7 @@ var datas = [
     },
     {
         "ID": "107",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 12: Castlevania",
         "ReleaseDate": "25 October 2004",
         "References": "GBA098A",
         "Developers": "Nintendo",
@@ -1285,7 +1285,7 @@ var datas = [
     },
     {
         "ID": "108",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 1: Super Mario Bros.",
         "ReleaseDate": "8 June 2004",
         "References": "GBA099A",
         "Developers": "Nintendo",
@@ -1297,7 +1297,7 @@ var datas = [
     },
     {
         "ID": "109",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 2: Donkey Kong",
         "ReleaseDate": "8 June 2004",
         "References": "GBA100A",
         "Developers": "Nintendo",
@@ -1309,7 +1309,7 @@ var datas = [
     },
     {
         "ID": "110",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 3: Ice Climber",
         "ReleaseDate": "8 June 2004",
         "References": "GBA101A",
         "Developers": "Nintendo",
@@ -1321,7 +1321,7 @@ var datas = [
     },
     {
         "ID": "111",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 4: Excitebike",
         "ReleaseDate": "7 June 2004",
         "References": "GBA102A",
         "Developers": "Nintendo",
@@ -1333,7 +1333,7 @@ var datas = [
     },
     {
         "ID": "112",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 5: Legend of Zelda",
         "ReleaseDate": "8 June 2004",
         "References": "GBA103A",
         "Developers": "Nintendo",
@@ -1345,7 +1345,7 @@ var datas = [
     },
     {
         "ID": "113",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 6: Pac-Man",
         "ReleaseDate": "8 June 2004",
         "References": "GBA104A",
         "Developers": "Nintendo",
@@ -1357,7 +1357,7 @@ var datas = [
     },
     {
         "ID": "114",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 7: Xevious",
         "ReleaseDate": "2 June 2004",
         "References": "GBA105A",
         "Developers": "Namco",
@@ -1369,7 +1369,7 @@ var datas = [
     },
     {
         "ID": "115",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 8: Bomberman",
         "ReleaseDate": "7 June 2004",
         "References": "GBA106A",
         "Developers": "Hudson Soft",
@@ -1381,7 +1381,7 @@ var datas = [
     },
     {
         "ID": "116",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NES Classics 9: Metroid",
         "ReleaseDate": "26 October 2004",
         "References": "GBA107A",
         "Developers": "Nintendo",
@@ -1393,7 +1393,7 @@ var datas = [
     },
     {
         "ID": "117",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sonic Advance 2",
         "ReleaseDate": "11 March 2003",
         "References": "GBA108A",
         "Developers": "Sonic Team",
@@ -1405,7 +1405,7 @@ var datas = [
     },
     {
         "ID": "118",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda: A Link to the Past w\/ the Four Swords",
         "ReleaseDate": "3 December 2002",
         "References": "GBA109A",
         "Developers": "Nintendo",
@@ -1417,7 +1417,7 @@ var datas = [
     },
     {
         "ID": "119",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda: The Minish Cap",
         "ReleaseDate": "11 January 2005",
         "References": "GBA110A",
         "Developers": "Flagship",
@@ -1429,7 +1429,7 @@ var datas = [
     },
     {
         "ID": "120",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Wild",
         "ReleaseDate": "4 April 2006",
         "References": "GBA111A",
         "Developers": "Aucun",
@@ -1441,7 +1441,7 @@ var datas = [
     },
     {
         "ID": "121",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Tomb Raider: The Prophecy",
         "ReleaseDate": "13 November 2002",
         "References": "GBA112A",
         "Developers": "Ubisoft",
@@ -1453,7 +1453,7 @@ var datas = [
     },
     {
         "ID": "122",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Pok\u00e9mon Silver Version",
         "ReleaseDate": "12 October 2000",
         "References": "GBC113A",
         "Developers": "Game Freak",
@@ -1465,7 +1465,7 @@ var datas = [
     },
     {
         "ID": "123",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Shantae",
         "ReleaseDate": "18 July 2013",
         "References": "GBC114A",
         "Developers": "WayForward",
@@ -1477,7 +1477,7 @@ var datas = [
     },
     {
         "ID": "124",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda: Oracle of Ages",
         "ReleaseDate": "17 May 2001",
         "References": "GBC115A",
         "Developers": "Flagship",
@@ -1489,7 +1489,7 @@ var datas = [
     },
     {
         "ID": "125",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda: Oracle of Seasons",
         "ReleaseDate": "17 May 2001",
         "References": "GBC116A",
         "Developers": "Flagship",
@@ -1501,7 +1501,7 @@ var datas = [
     },
     {
         "ID": "126",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Metroid Prime",
         "ReleaseDate": "18 November 2002",
         "References": "GCU117A",
         "Developers": "Retro Studios",
@@ -1513,7 +1513,7 @@ var datas = [
     },
     {
         "ID": "127",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Metroid Prime 2: Echoes",
         "ReleaseDate": "15 November 2004",
         "References": "GCU118A",
         "Developers": "Retro Studios",
@@ -1525,7 +1525,7 @@ var datas = [
     },
     {
         "ID": "128",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda Collector's Edition",
         "ReleaseDate": "4 November 2003",
         "References": "GCU119A",
         "Developers": "Nintendo",
@@ -1537,7 +1537,7 @@ var datas = [
     },
     {
         "ID": "129",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Asterix: The Power of the Gods",
         "ReleaseDate": "1995",
         "References": "MGD120A",
         "Developers": "Core Design",
@@ -1549,7 +1549,7 @@ var datas = [
     },
     {
         "ID": "130",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Asterix: The Power of the Gods",
         "ReleaseDate": "1995",
         "References": "MGD120B",
         "Developers": "Core Design",
@@ -1561,7 +1561,7 @@ var datas = [
     },
     {
         "ID": "131",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castle of Illusion Starring Mickey Mouse",
         "ReleaseDate": "1990",
         "References": "MGD121A",
         "Developers": "Sega",
@@ -1573,7 +1573,7 @@ var datas = [
     },
     {
         "ID": "132",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Disney's Aladdin",
         "ReleaseDate": "11 November 1993",
         "References": "MGD122A",
         "Developers": "Disney Software",
@@ -1585,7 +1585,7 @@ var datas = [
     },
     {
         "ID": "133",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Eternal Champions",
         "ReleaseDate": "14 August 1993",
         "References": "MGD123A",
         "Developers": "Sega",
@@ -1597,7 +1597,7 @@ var datas = [
     },
     {
         "ID": "134",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Global Gladiators",
         "ReleaseDate": "1992",
         "References": "MGD124A",
         "Developers": "Virgin Games",
@@ -1609,7 +1609,7 @@ var datas = [
     },
     {
         "ID": "135",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Jurassic Park",
         "ReleaseDate": "1993",
         "References": "MGD125A",
         "Developers": "BlueSky Software",
@@ -1621,7 +1621,7 @@ var datas = [
     },
     {
         "ID": "136",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Marsupilami",
         "ReleaseDate": "1995",
         "References": "MGD126A",
         "Developers": "Apache Software",
@@ -1633,7 +1633,7 @@ var datas = [
     },
     {
         "ID": "137",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mega Games 2",
         "ReleaseDate": "1993",
         "References": "MGD127A",
         "Developers": "Sega",
@@ -1645,7 +1645,7 @@ var datas = [
     },
     {
         "ID": "138",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mig-29 Fighter Pilot",
         "ReleaseDate": "1993",
         "References": "MGD128A",
         "Developers": "Domark Software",
@@ -1657,7 +1657,7 @@ var datas = [
     },
     {
         "ID": "139",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Pete Sampras Tennis",
         "ReleaseDate": "1994",
         "References": "MGD129A",
         "Developers": "Codemasters",
@@ -1669,7 +1669,7 @@ var datas = [
     },
     {
         "ID": "140",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Probotector",
         "ReleaseDate": "1994",
         "References": "MGD130A",
         "Developers": "Konami",
@@ -1681,7 +1681,7 @@ var datas = [
     },
     {
         "ID": "141",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Revolution X",
         "ReleaseDate": "1995",
         "References": "MGD131A",
         "Developers": "Midway",
@@ -1693,7 +1693,7 @@ var datas = [
     },
     {
         "ID": "142",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sonic 3D Blast",
         "ReleaseDate": "November 1996",
         "References": "MGD132A",
         "Developers": "Traveller's Tales",
@@ -1705,7 +1705,7 @@ var datas = [
     },
     {
         "ID": "143",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sonic Classics",
         "ReleaseDate": "1 July 1995",
         "References": "MGD133A",
         "Developers": "Sonic Team",
@@ -1717,7 +1717,7 @@ var datas = [
     },
     {
         "ID": "144",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sonic the Hedgehog",
         "ReleaseDate": "23 June 1991",
         "References": "MGD134A",
         "Developers": "Sonic Team",
@@ -1729,7 +1729,7 @@ var datas = [
     },
     {
         "ID": "145",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sonic the Hedgehog 2",
         "ReleaseDate": "24 November 1992",
         "References": "MGD135A",
         "Developers": "Sonic Team",
@@ -1741,7 +1741,7 @@ var datas = [
     },
     {
         "ID": "146",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sonic the Hedgehog: Spinball",
         "ReleaseDate": "14 November 1993",
         "References": "MGD136A",
         "Developers": "Sega",
@@ -1753,7 +1753,7 @@ var datas = [
     },
     {
         "ID": "147",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Story Of Thor",
         "ReleaseDate": "1994",
         "References": "MGD137A",
         "Developers": "Ancient",
@@ -1765,7 +1765,7 @@ var datas = [
     },
     {
         "ID": "148",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Streets of Rage",
         "ReleaseDate": "2 August 1991",
         "References": "MGD138A",
         "Developers": "AM7",
@@ -1777,7 +1777,7 @@ var datas = [
     },
     {
         "ID": "149",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Teenage Mutant Ninja Turtles: The Hyperstone Heist",
         "ReleaseDate": "21 December 1992",
         "References": "MGD139A",
         "Developers": "Konami",
@@ -1789,7 +1789,7 @@ var datas = [
     },
     {
         "ID": "150",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Teenage Mutant Ninja Turtles: Tournament Fighters",
         "ReleaseDate": "2 December 1993",
         "References": "MGD140A",
         "Developers": "Konami",
@@ -1801,7 +1801,7 @@ var datas = [
     },
     {
         "ID": "151",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Adventures of Mighty Max",
         "ReleaseDate": "1994",
         "References": "MGD141A",
         "Developers": "Ocean",
@@ -1813,7 +1813,7 @@ var datas = [
     },
     {
         "ID": "152",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Virtua Racing",
         "ReleaseDate": "1994",
         "References": "MGD142A",
         "Developers": "AM2",
@@ -1825,7 +1825,7 @@ var datas = [
     },
     {
         "ID": "153",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Wonder Boy III: Monster Land",
         "ReleaseDate": "1990",
         "References": "MGD143A",
         "Developers": "Aucun",
@@ -1837,7 +1837,7 @@ var datas = [
     },
     {
         "ID": "154",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Adventure Island",
         "ReleaseDate": "12 September 1986",
         "References": "NES144A",
         "Developers": "Hudson Soft",
@@ -1849,7 +1849,7 @@ var datas = [
     },
     {
         "ID": "155",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Adventures in the Magic Kingdom",
         "ReleaseDate": "June 1990",
         "References": "NES145A",
         "Developers": "Capcom",
@@ -1861,7 +1861,7 @@ var datas = [
     },
     {
         "ID": "156",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Astyanax",
         "ReleaseDate": "March 1990",
         "References": "NES146A",
         "Developers": "S.A.D.",
@@ -1873,7 +1873,7 @@ var datas = [
     },
     {
         "ID": "157",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Batman: The Video Game",
         "ReleaseDate": "22 December 1989",
         "References": "NES147A",
         "Developers": "Synapse Software",
@@ -1885,7 +1885,7 @@ var datas = [
     },
     {
         "ID": "158",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Bionic Commando",
         "ReleaseDate": "December 1988",
         "References": "NES148A",
         "Developers": "Capcom",
@@ -1897,7 +1897,7 @@ var datas = [
     },
     {
         "ID": "159",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Blades of Steel",
         "ReleaseDate": "1988",
         "References": "NES149A",
         "Developers": "Konami",
@@ -1909,7 +1909,7 @@ var datas = [
     },
     {
         "ID": "160",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Bugs Bunny Birthday Blowout",
         "ReleaseDate": "September 1990",
         "References": "NES150A",
         "Developers": "Kemco",
@@ -1921,7 +1921,7 @@ var datas = [
     },
     {
         "ID": "161",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Captain Skyhawk",
         "ReleaseDate": "24 May 1994",
         "References": "NES151A",
         "Developers": "Rare",
@@ -1933,7 +1933,7 @@ var datas = [
     },
     {
         "ID": "162",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castelian",
         "ReleaseDate": "June 1991",
         "References": "NES152A",
         "Developers": "BITS Studios",
@@ -1945,7 +1945,7 @@ var datas = [
     },
     {
         "ID": "163",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania",
         "ReleaseDate": "26 September 1986",
         "References": "NES153A",
         "Developers": "Konami",
@@ -1957,7 +1957,7 @@ var datas = [
     },
     {
         "ID": "164",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania II: Simon's Quest",
         "ReleaseDate": "December 1988",
         "References": "NES154A",
         "Developers": "Konami",
@@ -1969,7 +1969,7 @@ var datas = [
     },
     {
         "ID": "165",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania III: Dracula's Curse",
         "ReleaseDate": "September 1990",
         "References": "NES155A",
         "Developers": "Konami",
@@ -1981,7 +1981,7 @@ var datas = [
     },
     {
         "ID": "166",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Chip 'n Dale: Rescue Rangers",
         "ReleaseDate": "12 December 1991",
         "References": "NES156A",
         "Developers": "Capcom",
@@ -1993,7 +1993,7 @@ var datas = [
     },
     {
         "ID": "167",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Cobra Triangle",
         "ReleaseDate": "July 1989",
         "References": "NES157A",
         "Developers": "Rare",
@@ -2005,7 +2005,7 @@ var datas = [
     },
     {
         "ID": "168",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Darkwing Duck",
         "ReleaseDate": "1992",
         "References": "NES158A",
         "Developers": "Capcom",
@@ -2017,7 +2017,7 @@ var datas = [
     },
     {
         "ID": "169",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Defender of the Crown",
         "ReleaseDate": "July 1989",
         "References": "NES159A",
         "Developers": "Master Designer Software",
@@ -2029,7 +2029,7 @@ var datas = [
     },
     {
         "ID": "170",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Donkey Kong",
         "ReleaseDate": "June 1986",
         "References": "NES160A",
         "Developers": "Nintendo",
@@ -2041,7 +2041,7 @@ var datas = [
     },
     {
         "ID": "171",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Donkey Kong 3",
         "ReleaseDate": "4 June 1986",
         "References": "NES161A",
         "Developers": "Nintendo",
@@ -2053,7 +2053,7 @@ var datas = [
     },
     {
         "ID": "172",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Double Dragon II: The Revenge",
         "ReleaseDate": "January 1990",
         "References": "NES162A",
         "Developers": "Technos Japan",
@@ -2065,7 +2065,7 @@ var datas = [
     },
     {
         "ID": "173",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Double Dragon III: The Sacred Stones",
         "ReleaseDate": "February 1991",
         "References": "NES163A",
         "Developers": "Technos Japan",
@@ -2077,7 +2077,7 @@ var datas = [
     },
     {
         "ID": "174",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dragon Ball",
         "ReleaseDate": "21 November 1986",
         "References": "NES164A",
         "Developers": "TOSE Software Co.",
@@ -2089,7 +2089,7 @@ var datas = [
     },
     {
         "ID": "175",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Duck Tales",
         "ReleaseDate": "September 1989",
         "References": "NES165A",
         "Developers": "Capcom",
@@ -2101,7 +2101,7 @@ var datas = [
     },
     {
         "ID": "176",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Duck Tales 2",
         "ReleaseDate": "June 1993",
         "References": "NES166A",
         "Developers": "Capcom",
@@ -2113,7 +2113,7 @@ var datas = [
     },
     {
         "ID": "177",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dungeon Magic: Sword of the Elements",
         "ReleaseDate": "July 1990",
         "References": "NES167A",
         "Developers": "Natsume Inc.",
@@ -2125,7 +2125,7 @@ var datas = [
     },
     {
         "ID": "178",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Faxanadu",
         "ReleaseDate": "August 1989",
         "References": "NES168A",
         "Developers": "Hudson Soft",
@@ -2137,7 +2137,7 @@ var datas = [
     },
     {
         "ID": "179",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Final Fantasy",
         "ReleaseDate": "18 December 1987",
         "References": "NES169A",
         "Developers": "Square",
@@ -2149,7 +2149,7 @@ var datas = [
     },
     {
         "ID": "180",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Gauntlet II",
         "ReleaseDate": "September 1990",
         "References": "NES170A",
         "Developers": "Mindscape",
@@ -2161,7 +2161,7 @@ var datas = [
     },
     {
         "ID": "181",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Ghosts'n Goblins",
         "ReleaseDate": "1986",
         "References": "NES171A",
         "Developers": "Capcom",
@@ -2173,7 +2173,7 @@ var datas = [
     },
     {
         "ID": "182",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Gradius",
         "ReleaseDate": "1986",
         "References": "NES172A",
         "Developers": "Konami",
@@ -2185,7 +2185,7 @@ var datas = [
     },
     {
         "ID": "183",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Ice Hockey",
         "ReleaseDate": "March 1988",
         "References": "NES173A",
         "Developers": "Nintendo",
@@ -2197,7 +2197,7 @@ var datas = [
     },
     {
         "ID": "184",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Ironsword: Wizards and Warriors 2",
         "ReleaseDate": "December 1989",
         "References": "NES174A",
         "Developers": "Rare",
@@ -2209,7 +2209,7 @@ var datas = [
     },
     {
         "ID": "185",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Ivan Ironman Stewarts Super Off-Road",
         "ReleaseDate": "July 1990",
         "References": "NES175A",
         "Developers": "Rare",
@@ -2221,7 +2221,7 @@ var datas = [
     },
     {
         "ID": "186",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Kid Icarus",
         "ReleaseDate": "August 1987",
         "References": "NES176A",
         "Developers": "Nintendo",
@@ -2233,7 +2233,7 @@ var datas = [
     },
     {
         "ID": "187",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mach Rider",
         "ReleaseDate": "October 1985",
         "References": "NES177A",
         "Developers": "Nintendo",
@@ -2245,7 +2245,7 @@ var datas = [
     },
     {
         "ID": "188",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mega Man",
         "ReleaseDate": "December 1987",
         "References": "NES178A",
         "Developers": "Capcom",
@@ -2257,7 +2257,7 @@ var datas = [
     },
     {
         "ID": "189",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mega Man 2",
         "ReleaseDate": "June 1989",
         "References": "NES179A",
         "Developers": "Capcom",
@@ -2269,7 +2269,7 @@ var datas = [
     },
     {
         "ID": "190",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mega Man 3",
         "ReleaseDate": "December 1990",
         "References": "NES180A",
         "Developers": "Capcom",
@@ -2281,7 +2281,7 @@ var datas = [
     },
     {
         "ID": "191",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mega Man 4",
         "ReleaseDate": "January 1992",
         "References": "NES181A",
         "Developers": "Capcom",
@@ -2293,7 +2293,7 @@ var datas = [
     },
     {
         "ID": "192",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Metroid",
         "ReleaseDate": "6 August 1986",
         "References": "NES182A",
         "Developers": "Nintendo",
@@ -2305,7 +2305,7 @@ var datas = [
     },
     {
         "ID": "193",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Nintendo World Cup",
         "ReleaseDate": "December 1990",
         "References": "NES183A",
         "Developers": "Technos Japan",
@@ -2317,7 +2317,7 @@ var datas = [
     },
     {
         "ID": "194",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Rad Racer",
         "ReleaseDate": "October 1987",
         "References": "NES184A",
         "Developers": "Square",
@@ -2329,7 +2329,7 @@ var datas = [
     },
     {
         "ID": "195",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "River City Ransom",
         "ReleaseDate": "January 1990",
         "References": "NES185A",
         "Developers": "Technos Japan",
@@ -2341,7 +2341,7 @@ var datas = [
     },
     {
         "ID": "196",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "RoboCop",
         "ReleaseDate": "December 1989",
         "References": "NES186A",
         "Developers": "Ocean",
@@ -2353,7 +2353,7 @@ var datas = [
     },
     {
         "ID": "197",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Rygar",
         "ReleaseDate": "October 1987",
         "References": "NES187A",
         "Developers": "Tecmo Ltd.",
@@ -2365,7 +2365,7 @@ var datas = [
     },
     {
         "ID": "198",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Section Z",
         "ReleaseDate": "July 1987",
         "References": "NES188A",
         "Developers": "Capcom",
@@ -2377,7 +2377,7 @@ var datas = [
     },
     {
         "ID": "199",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Shadowgate",
         "ReleaseDate": "31 December 1989",
         "References": "NES189A",
         "Developers": "ICOM Simulations",
@@ -2389,7 +2389,7 @@ var datas = [
     },
     {
         "ID": "200",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Silent Service",
         "ReleaseDate": "December 1989",
         "References": "NES190A",
         "Developers": "Rare",
@@ -2401,7 +2401,7 @@ var datas = [
     },
     {
         "ID": "201",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Solar Jetman: Hunt for the Golden Warpship",
         "ReleaseDate": "1990",
         "References": "NES191A",
         "Developers": "Rare",
@@ -2413,7 +2413,7 @@ var datas = [
     },
     {
         "ID": "202",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Solstice",
         "ReleaseDate": "26 September 1990",
         "References": "NES192A",
         "Developers": "Software Creations",
@@ -2425,7 +2425,7 @@ var datas = [
     },
     {
         "ID": "203",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Spy vs. Spy",
         "ReleaseDate": "26 April 1988",
         "References": "NES193A",
         "Developers": "First Star Software, Inc.",
@@ -2437,7 +2437,7 @@ var datas = [
     },
     {
         "ID": "204",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "StarTropics",
         "ReleaseDate": "December 1990",
         "References": "NES194A",
         "Developers": "Nintendo",
@@ -2449,7 +2449,7 @@ var datas = [
     },
     {
         "ID": "205",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Mario Bros.",
         "ReleaseDate": "13 September 1985",
         "References": "NES195A",
         "Developers": "Nintendo",
@@ -2461,7 +2461,7 @@ var datas = [
     },
     {
         "ID": "206",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Mario Bros.",
         "ReleaseDate": "13 September 1985",
         "References": "NES195B",
         "Developers": "Nintendo",
@@ -2473,7 +2473,7 @@ var datas = [
     },
     {
         "ID": "207",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Mario Bros. 2",
         "ReleaseDate": "10 October 1988",
         "References": "NES196A",
         "Developers": "Nintendo",
@@ -2485,7 +2485,7 @@ var datas = [
     },
     {
         "ID": "208",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Mario Bros. 3",
         "ReleaseDate": "12 February 1990",
         "References": "NES197A",
         "Developers": "Nintendo",
@@ -2497,7 +2497,7 @@ var datas = [
     },
     {
         "ID": "209",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Spike V'Ball",
         "ReleaseDate": "February 1990",
         "References": "NES198A",
         "Developers": "Technos Japan",
@@ -2509,7 +2509,7 @@ var datas = [
     },
     {
         "ID": "210",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Swords and Serpents",
         "ReleaseDate": "1990",
         "References": "NES199A",
         "Developers": "Interplay Productions",
@@ -2521,7 +2521,7 @@ var datas = [
     },
     {
         "ID": "211",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Tale Spin",
         "ReleaseDate": "1991",
         "References": "NES200A",
         "Developers": "Capcom",
@@ -2533,7 +2533,7 @@ var datas = [
     },
     {
         "ID": "212",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Target: Renegade",
         "ReleaseDate": "March 1990",
         "References": "NES201A",
         "Developers": "Software Creations",
@@ -2545,7 +2545,7 @@ var datas = [
     },
     {
         "ID": "213",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Teenage Mutant Ninja Turtles",
         "ReleaseDate": "17 August 1990",
         "References": "NES202A",
         "Developers": "Konami",
@@ -2557,7 +2557,7 @@ var datas = [
     },
     {
         "ID": "214",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Teenage Mutant Ninja Turtles II: The Arcade Game",
         "ReleaseDate": "1990",
         "References": "NES203A",
         "Developers": "Konami",
@@ -2569,7 +2569,7 @@ var datas = [
     },
     {
         "ID": "215",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Tennis",
         "ReleaseDate": "14 January 1985",
         "References": "NES204A",
         "Developers": "Nintendo",
@@ -2581,7 +2581,7 @@ var datas = [
     },
     {
         "ID": "216",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Tetris",
         "ReleaseDate": "22 December 1988",
         "References": "NES205A",
         "Developers": "Nintendo",
@@ -2593,7 +2593,7 @@ var datas = [
     },
     {
         "ID": "217",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Adventures of Bayou Billy",
         "ReleaseDate": "June 1989",
         "References": "NES206A",
         "Developers": "Fonfun",
@@ -2605,7 +2605,7 @@ var datas = [
     },
     {
         "ID": "218",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Battle of Olympus",
         "ReleaseDate": "December 1989",
         "References": "NES207A",
         "Developers": "Br\u00f8derbund",
@@ -2617,7 +2617,7 @@ var datas = [
     },
     {
         "ID": "219",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Goonies II",
         "ReleaseDate": "1987",
         "References": "NES208A",
         "Developers": "Konami",
@@ -2629,7 +2629,7 @@ var datas = [
     },
     {
         "ID": "220",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Jungle Book",
         "ReleaseDate": "August 1994",
         "References": "NES209A",
         "Developers": "Eurocom Developments Ltd.",
@@ -2641,7 +2641,7 @@ var datas = [
     },
     {
         "ID": "221",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda",
         "ReleaseDate": "22 August 1987",
         "References": "NES210A",
         "Developers": "Nintendo",
@@ -2653,7 +2653,7 @@ var datas = [
     },
     {
         "ID": "222",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Time Lord",
         "ReleaseDate": "1990",
         "References": "NES211A",
         "Developers": "Rare",
@@ -2665,7 +2665,7 @@ var datas = [
     },
     {
         "ID": "223",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Top Gun",
         "ReleaseDate": "November 1987",
         "References": "NES212A",
         "Developers": "Konami",
@@ -2677,7 +2677,7 @@ var datas = [
     },
     {
         "ID": "224",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Top Gun: The Second Mission",
         "ReleaseDate": "1990",
         "References": "NES213A",
         "Developers": "Konami",
@@ -2689,7 +2689,7 @@ var datas = [
     },
     {
         "ID": "225",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Track & Field II",
         "ReleaseDate": "1989",
         "References": "NES214A",
         "Developers": "Konami",
@@ -2701,7 +2701,7 @@ var datas = [
     },
     {
         "ID": "226",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Trojan",
         "ReleaseDate": "1987",
         "References": "NES215A",
         "Developers": "Capcom",
@@ -2713,7 +2713,7 @@ var datas = [
     },
     {
         "ID": "227",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Willow",
         "ReleaseDate": "1989",
         "References": "NES216A",
         "Developers": "Capcom",
@@ -2725,7 +2725,7 @@ var datas = [
     },
     {
         "ID": "228",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Wizards & Warriors",
         "ReleaseDate": "December 1987",
         "References": "NES217A",
         "Developers": "Rare",
@@ -2737,7 +2737,7 @@ var datas = [
     },
     {
         "ID": "229",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Wizards & Warriors III: Kuros Visions of Power",
         "ReleaseDate": "December 1992",
         "References": "NES218A",
         "Developers": "Rare",
@@ -2749,7 +2749,7 @@ var datas = [
     },
     {
         "ID": "230",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Wrath of the Black Manta",
         "ReleaseDate": "1990",
         "References": "NES219A",
         "Developers": "Taito Corporation",
@@ -2761,7 +2761,7 @@ var datas = [
     },
     {
         "ID": "231",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Zelda II: The Adventure of Link",
         "ReleaseDate": "1 March 1988",
         "References": "NES220A",
         "Developers": "Nintendo",
@@ -2773,7 +2773,7 @@ var datas = [
     },
     {
         "ID": "232",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Zelda II: The Adventure of Link",
         "ReleaseDate": "1 March 1988",
         "References": "NES220B",
         "Developers": "Nintendo",
@@ -2785,7 +2785,7 @@ var datas = [
     },
     {
         "ID": "233",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Lords of Shadow - Mirror of Fate",
         "ReleaseDate": "8 March 2013",
         "References": "3DS221A",
         "Developers": "Konami",
@@ -2797,7 +2797,7 @@ var datas = [
     },
     {
         "ID": "234",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dragon Quest VII: Fragments of the Forgotten Past",
         "ReleaseDate": "16 September 2016",
         "References": "3DS222A",
         "Developers": "Square Enix",
@@ -2809,7 +2809,7 @@ var datas = [
     },
     {
         "ID": "235",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dragon Quest VIII: Journey of the Cursed King",
         "ReleaseDate": "20 January 2017",
         "References": "3DS223A",
         "Developers": "Square Enix",
@@ -2821,7 +2821,7 @@ var datas = [
     },
     {
         "ID": "236",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Fire Emblem Echoes: Shadows of Valentia",
         "ReleaseDate": "19 May 2017",
         "References": "3DS224A",
         "Developers": "Nintendo",
@@ -2833,7 +2833,7 @@ var datas = [
     },
     {
         "ID": "237",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Fire Emblem Fates: Birthright",
         "ReleaseDate": "20 May 2016",
         "References": "3DS225A",
         "Developers": "Nintendo",
@@ -2845,7 +2845,7 @@ var datas = [
     },
     {
         "ID": "238",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Fire Emblem Fates: Conquest",
         "ReleaseDate": "20 May 2016",
         "References": "3DS226A",
         "Developers": "Nintendo",
@@ -2857,7 +2857,7 @@ var datas = [
     },
     {
         "ID": "239",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Fire Emblem: Awakening",
         "ReleaseDate": "4 February 2012",
         "References": "3DS227A",
         "Developers": "Intelligent Systems",
@@ -2869,7 +2869,7 @@ var datas = [
     },
     {
         "ID": "240",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Kid Icarus: Uprising",
         "ReleaseDate": "20 March 2012",
         "References": "3DS228A",
         "Developers": "Ubisoft",
@@ -2881,7 +2881,7 @@ var datas = [
     },
     {
         "ID": "241",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mario Kart 7",
         "ReleaseDate": "4 December 2011",
         "References": "3DS229A",
         "Developers": "Nintendo",
@@ -2893,7 +2893,7 @@ var datas = [
     },
     {
         "ID": "242",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Smash Bros.",
         "ReleaseDate": "3 October 2014",
         "References": "3DS230A",
         "Developers": "Nintendo",
@@ -2905,7 +2905,7 @@ var datas = [
     },
     {
         "ID": "243",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Street Fighter IV: 3D Edition",
         "ReleaseDate": "21 March 2011",
         "References": "3DS231A",
         "Developers": "Capcom",
@@ -2917,7 +2917,7 @@ var datas = [
     },
     {
         "ID": "244",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda: Ocarina of Time 3D",
         "ReleaseDate": "20 June 2011",
         "References": "3DS232A",
         "Developers": "Nintendo",
@@ -2929,7 +2929,7 @@ var datas = [
     },
     {
         "ID": "245",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Banjo-Kazooie",
         "ReleaseDate": "31 May 1998",
         "References": "N64233A",
         "Developers": "Rare",
@@ -2941,7 +2941,7 @@ var datas = [
     },
     {
         "ID": "246",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania",
         "ReleaseDate": "31 December 1998",
         "References": "N64234A",
         "Developers": "Konami",
@@ -2953,7 +2953,7 @@ var datas = [
     },
     {
         "ID": "247",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "F-1 World Grand Prix",
         "ReleaseDate": "1998",
         "References": "N64235A",
         "Developers": "Paradigm Entertainment, Inc.",
@@ -2965,7 +2965,7 @@ var datas = [
     },
     {
         "ID": "248",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "GoldenEye 007",
         "ReleaseDate": "25 August 1997",
         "References": "N64236A",
         "Developers": "Rare",
@@ -2977,7 +2977,7 @@ var datas = [
     },
     {
         "ID": "249",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mario Kart 64",
         "ReleaseDate": "1 November 1999",
         "References": "N64237A",
         "Developers": "Nintendo",
@@ -2989,7 +2989,7 @@ var datas = [
     },
     {
         "ID": "250",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mario Party",
         "ReleaseDate": "8 February 1999",
         "References": "N64238A",
         "Developers": "Hudson Soft",
@@ -3001,7 +3001,7 @@ var datas = [
     },
     {
         "ID": "251",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mission: Impossible",
         "ReleaseDate": "18 July 1998",
         "References": "N64239A",
         "Developers": "Infogrames",
@@ -3013,7 +3013,7 @@ var datas = [
     },
     {
         "ID": "252",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "NBA Live 99",
         "ReleaseDate": "4 November 1998",
         "References": "N64240A",
         "Developers": "Aucun",
@@ -3025,7 +3025,7 @@ var datas = [
     },
     {
         "ID": "253",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Pok\u00e9mon Stadium",
         "ReleaseDate": "13 March 2000",
         "References": "N64241A",
         "Developers": "HAL Laboratory",
@@ -3037,7 +3037,7 @@ var datas = [
     },
     {
         "ID": "254",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Quake",
         "ReleaseDate": "24 March 1998",
         "References": "N64242A",
         "Developers": "id Software",
@@ -3049,7 +3049,7 @@ var datas = [
     },
     {
         "ID": "255",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Rayman 2: The Great Escape",
         "ReleaseDate": "31 October 1999",
         "References": "N64243A",
         "Developers": "Ubisoft",
@@ -3061,7 +3061,7 @@ var datas = [
     },
     {
         "ID": "256",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Rugrats in Paris: The Movie",
         "ReleaseDate": "12 November 2000",
         "References": "N64244A",
         "Developers": "Avalanche Software",
@@ -3073,7 +3073,7 @@ var datas = [
     },
     {
         "ID": "257",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Star Wars: Rogue Squadron",
         "ReleaseDate": "12 April 1998",
         "References": "N64245A",
         "Developers": "Factor 5",
@@ -3085,7 +3085,7 @@ var datas = [
     },
     {
         "ID": "258",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Starshot: Space Circus Fever",
         "ReleaseDate": "30 June 1999",
         "References": "N64246A",
         "Developers": "Infogrames",
@@ -3097,7 +3097,7 @@ var datas = [
     },
     {
         "ID": "259",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Mario 64",
         "ReleaseDate": "26 September 1996",
         "References": "N64247A",
         "Developers": "Nintendo",
@@ -3109,7 +3109,7 @@ var datas = [
     },
     {
         "ID": "260",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Smash Bros.",
         "ReleaseDate": "26 April 1999",
         "References": "N64248A",
         "Developers": "HAL Laboratory",
@@ -3121,7 +3121,7 @@ var datas = [
     },
     {
         "ID": "261",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda: Majora's Mask",
         "ReleaseDate": "26 October 2000",
         "References": "N64249A",
         "Developers": "Nintendo",
@@ -3133,7 +3133,7 @@ var datas = [
     },
     {
         "ID": "262",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda: Majora's Mask",
         "ReleaseDate": "26 October 2000",
         "References": "N64249B",
         "Developers": "Nintendo",
@@ -3145,7 +3145,7 @@ var datas = [
     },
     {
         "ID": "263",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda: Ocarina of Time",
         "ReleaseDate": "23 November 1998",
         "References": "N64250A",
         "Developers": "Nintendo",
@@ -3157,7 +3157,7 @@ var datas = [
     },
     {
         "ID": "264",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Tonic Trouble",
         "ReleaseDate": "31 August 1999",
         "References": "N64251A",
         "Developers": "Ubisoft",
@@ -3169,7 +3169,7 @@ var datas = [
     },
     {
         "ID": "265",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Toy Story 2: Buzz Lightyear to the Rescue",
         "ReleaseDate": "30 November 1999",
         "References": "N64252A",
         "Developers": "Traveller's Tales",
@@ -3181,7 +3181,7 @@ var datas = [
     },
     {
         "ID": "266",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "T\u00e9l\u00e9foot Soccer 2000",
         "ReleaseDate": null,
         "References": "N64253A",
         "Developers": "Aucun",
@@ -3193,7 +3193,7 @@ var datas = [
     },
     {
         "ID": "267",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Yuke Yuke!! Trouble Makers",
         "ReleaseDate": "27 June 1997",
         "References": "N64254A",
         "Developers": "Treasure",
@@ -3205,7 +3205,7 @@ var datas = [
     },
     {
         "ID": "268",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Age of Empires: Mythologies",
         "ReleaseDate": "25 November 2008",
         "References": "NDS255A",
         "Developers": "Griptonite Games",
@@ -3217,7 +3217,7 @@ var datas = [
     },
     {
         "ID": "269",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Age of Empires: The Age of Kings",
         "ReleaseDate": "14 February 2006",
         "References": "NDS256A",
         "Developers": "Backbone Entertainment",
@@ -3229,7 +3229,7 @@ var datas = [
     },
     {
         "ID": "270",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Dawn of Sorrow",
         "ReleaseDate": "4 October 2005",
         "References": "NDS257A",
         "Developers": "Konami",
@@ -3241,7 +3241,7 @@ var datas = [
     },
     {
         "ID": "271",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Order of Ecclesia",
         "ReleaseDate": "21 October 2008",
         "References": "NDS258A",
         "Developers": "Konami",
@@ -3253,7 +3253,7 @@ var datas = [
     },
     {
         "ID": "272",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Order of Ecclesia",
         "ReleaseDate": "21 October 2008",
         "References": "NDS258B",
         "Developers": "Konami",
@@ -3265,7 +3265,7 @@ var datas = [
     },
     {
         "ID": "273",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Portrait of Ruin",
         "ReleaseDate": "5 December 2006",
         "References": "NDS259A",
         "Developers": "Konami",
@@ -3277,7 +3277,7 @@ var datas = [
     },
     {
         "ID": "274",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Portrait of Ruin",
         "ReleaseDate": "5 December 2006",
         "References": "NDS259B",
         "Developers": "Konami",
@@ -3289,7 +3289,7 @@ var datas = [
     },
     {
         "ID": "275",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Chrono Trigger",
         "ReleaseDate": "2 December 2008",
         "References": "NDS260A",
         "Developers": "Square Enix",
@@ -3301,7 +3301,7 @@ var datas = [
     },
     {
         "ID": "276",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dragon Quest IV: The Chapters of the Chosen",
         "ReleaseDate": "12 September 2008",
         "References": "NDS261A",
         "Developers": "Square Enix",
@@ -3313,7 +3313,7 @@ var datas = [
     },
     {
         "ID": "277",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dragon Quest IV: The Chapters of the Chosen",
         "ReleaseDate": "12 September 2008",
         "References": "NDS261B",
         "Developers": "Square Enix",
@@ -3325,7 +3325,7 @@ var datas = [
     },
     {
         "ID": "278",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dragon Quest IX: Sentinels of the Starry Skies",
         "ReleaseDate": "12 July 2010",
         "References": "NDS262A",
         "Developers": "Square Enix",
@@ -3337,7 +3337,7 @@ var datas = [
     },
     {
         "ID": "279",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dragon Quest V: Hand of the Heavenly Bride",
         "ReleaseDate": "17 February 2009",
         "References": "NDS263A",
         "Developers": "ArtePiazza",
@@ -3349,7 +3349,7 @@ var datas = [
     },
     {
         "ID": "280",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dragon Quest VI: Realms of Revelation",
         "ReleaseDate": "14 February 2011",
         "References": "NDS264A",
         "Developers": "Square Enix",
@@ -3361,7 +3361,7 @@ var datas = [
     },
     {
         "ID": "281",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Etrian Odyssey",
         "ReleaseDate": "15 May 2007",
         "References": "NDS265A",
         "Developers": "Atlus",
@@ -3373,7 +3373,7 @@ var datas = [
     },
     {
         "ID": "282",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Final Fantasy III",
         "ReleaseDate": "14 November 2006",
         "References": "NDS266A",
         "Developers": "Matrix Software",
@@ -3385,7 +3385,7 @@ var datas = [
     },
     {
         "ID": "283",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Golden Sun: Dark Dawn",
         "ReleaseDate": "29 November 2010",
         "References": "NDS267A",
         "Developers": "Camelot",
@@ -3397,7 +3397,7 @@ var datas = [
     },
     {
         "ID": "284",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mega Man ZX",
         "ReleaseDate": "2 February 2007",
         "References": "NDS268A",
         "Developers": "Capcom",
@@ -3409,7 +3409,7 @@ var datas = [
     },
     {
         "ID": "285",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Metroid Prime: Hunters",
         "ReleaseDate": "20 March 2006",
         "References": "NDS269A",
         "Developers": "Nintendo",
@@ -3421,7 +3421,7 @@ var datas = [
     },
     {
         "ID": "286",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Might and Magic: Clash of Heroes",
         "ReleaseDate": "1 December 2009",
         "References": "NDS270A",
         "Developers": "Capybara Games",
@@ -3433,7 +3433,7 @@ var datas = [
     },
     {
         "ID": "287",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Picross DS",
         "ReleaseDate": "30 July 2007",
         "References": "NDS271A",
         "Developers": "Nintendo",
@@ -3445,7 +3445,7 @@ var datas = [
     },
     {
         "ID": "288",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Radiant Historia",
         "ReleaseDate": "22 February 2011",
         "References": "NDS272A",
         "Developers": "Atlus",
@@ -3457,7 +3457,7 @@ var datas = [
     },
     {
         "ID": "289",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda: Phantom Hourglass",
         "ReleaseDate": "1 October 2007",
         "References": "NDS273A",
         "Developers": "Nintendo",
@@ -3469,7 +3469,7 @@ var datas = [
     },
     {
         "ID": "290",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania X: Rondo Of Blood",
         "ReleaseDate": "1 January 1992",
         "References": "PCE274A",
         "Developers": "Aucun",
@@ -3481,7 +3481,7 @@ var datas = [
     },
     {
         "ID": "291",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Blood Bowl",
         "ReleaseDate": "13 April 2010",
         "References": "PSP275A",
         "Developers": "Cyanide Studio",
@@ -3493,7 +3493,7 @@ var datas = [
     },
     {
         "ID": "292",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Buzz! Master Quiz",
         "ReleaseDate": "23 September 2008",
         "References": "PSP276A",
         "Developers": "Sony",
@@ -3505,7 +3505,7 @@ var datas = [
     },
     {
         "ID": "293",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Dracula X Chronicles",
         "ReleaseDate": "23 October 2007",
         "References": "PSP277A",
         "Developers": "Konami",
@@ -3517,7 +3517,7 @@ var datas = [
     },
     {
         "ID": "294",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Dracula X Chronicles",
         "ReleaseDate": "23 October 2007",
         "References": "PSP277B",
         "Developers": "Konami",
@@ -3529,7 +3529,7 @@ var datas = [
     },
     {
         "ID": "295",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "God of War: Chains of Olympus",
         "ReleaseDate": "4 March 2008",
         "References": "PSP278A",
         "Developers": "Ready at Dawn",
@@ -3541,7 +3541,7 @@ var datas = [
     },
     {
         "ID": "296",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "God of War: Chains of Olympus",
         "ReleaseDate": "4 March 2008",
         "References": "PSP278B",
         "Developers": "Ready at Dawn",
@@ -3553,7 +3553,7 @@ var datas = [
     },
     {
         "ID": "297",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "God of War: Ghost of Sparta",
         "ReleaseDate": "2 November 2010",
         "References": "PSP279A",
         "Developers": "Ready at Dawn",
@@ -3565,7 +3565,7 @@ var datas = [
     },
     {
         "ID": "298",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Kingdom Hearts: Birth by Sleep",
         "ReleaseDate": "7 September 2010",
         "References": "PSP280A",
         "Developers": "Square Enix",
@@ -3577,7 +3577,7 @@ var datas = [
     },
     {
         "ID": "299",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Monster Hunter: Freedom",
         "ReleaseDate": "23 May 2006",
         "References": "PSP281A",
         "Developers": "Capcom",
@@ -3589,7 +3589,7 @@ var datas = [
     },
     {
         "ID": "300",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Prince of Persia: The Forgotten Sands",
         "ReleaseDate": "18 May 2010",
         "References": "PSP282A",
         "Developers": "Ubisoft",
@@ -3601,7 +3601,7 @@ var datas = [
     },
     {
         "ID": "301",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sonic Rivals",
         "ReleaseDate": "21 November 2006",
         "References": "PSP283A",
         "Developers": "Backbone Entertainment",
@@ -3613,7 +3613,7 @@ var datas = [
     },
     {
         "ID": "302",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "SoulCalibur: Broken Destiny",
         "ReleaseDate": "1 September 2009",
         "References": "PSP284A",
         "Developers": "Namco",
@@ -3625,7 +3625,7 @@ var datas = [
     },
     {
         "ID": "303",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Street Fighter Alpha 3 Max",
         "ReleaseDate": "7 February 2006",
         "References": "PSP285A",
         "Developers": "Capcom",
@@ -3637,7 +3637,7 @@ var datas = [
     },
     {
         "ID": "304",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Valkyria Chronicles 2",
         "ReleaseDate": "31 August 2010",
         "References": "PSP286A",
         "Developers": "Sega",
@@ -3649,7 +3649,7 @@ var datas = [
     },
     {
         "ID": "305",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Alone in the Dark: The New Nightmare",
         "ReleaseDate": "20 June 2001",
         "References": "PS1287A",
         "Developers": "Darkworks",
@@ -3661,7 +3661,7 @@ var datas = [
     },
     {
         "ID": "306",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Breath of Fire III",
         "ReleaseDate": "6 March 1998",
         "References": "PS1288A",
         "Developers": "Capcom",
@@ -3673,7 +3673,7 @@ var datas = [
     },
     {
         "ID": "307",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania Chronicles",
         "ReleaseDate": "9 October 2001",
         "References": "PS1289A",
         "Developers": "Konami",
@@ -3685,7 +3685,7 @@ var datas = [
     },
     {
         "ID": "308",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Disney's Tarzan",
         "ReleaseDate": "30 June 1999",
         "References": "PS1290A",
         "Developers": "Eurocom Developments Ltd.",
@@ -3697,7 +3697,7 @@ var datas = [
     },
     {
         "ID": "309",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Heart of Darkness",
         "ReleaseDate": "9 September 1998",
         "References": "PS1291A",
         "Developers": "Amazing Studio",
@@ -3709,7 +3709,7 @@ var datas = [
     },
     {
         "ID": "310",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Hugo 2",
         "ReleaseDate": "April 2000",
         "References": "PS1292A",
         "Developers": "ITE Media",
@@ -3721,7 +3721,7 @@ var datas = [
     },
     {
         "ID": "311",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Ninja: Shadow of Darkness",
         "ReleaseDate": "1 October 1998",
         "References": "PS1293A",
         "Developers": "Core",
@@ -3733,7 +3733,7 @@ var datas = [
     },
     {
         "ID": "312",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Rage Racer",
         "ReleaseDate": "15 May 1997",
         "References": "PS1294A",
         "Developers": "Namco",
@@ -3745,7 +3745,7 @@ var datas = [
     },
     {
         "ID": "313",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Soulblade",
         "ReleaseDate": "2003",
         "References": "PS1295A",
         "Developers": "Namco",
@@ -3757,7 +3757,7 @@ var datas = [
     },
     {
         "ID": "314",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Spyro the Dragon",
         "ReleaseDate": "10 September 1998",
         "References": "PS1296A",
         "Developers": "Insomniac Games",
@@ -3769,7 +3769,7 @@ var datas = [
     },
     {
         "ID": "315",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Star Gladiator Episode 1: Final Crusade",
         "ReleaseDate": "1 November 1996",
         "References": "PS1297A",
         "Developers": "Capcom",
@@ -3781,7 +3781,7 @@ var datas = [
     },
     {
         "ID": "316",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Star Ocean: The Second Story",
         "ReleaseDate": "7 June 1999",
         "References": "PS1298A",
         "Developers": "Tri-Ace",
@@ -3793,7 +3793,7 @@ var datas = [
     },
     {
         "ID": "317",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Street Fighter Alpha 3",
         "ReleaseDate": "9 May 1999",
         "References": "PS1299A",
         "Developers": "Capcom",
@@ -3805,7 +3805,7 @@ var datas = [
     },
     {
         "ID": "318",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Tekken 3",
         "ReleaseDate": "29 April 1998",
         "References": "PS1300A",
         "Developers": "Namco",
@@ -3817,7 +3817,7 @@ var datas = [
     },
     {
         "ID": "319",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Tomb Raider: The Last Revelation",
         "ReleaseDate": "17 November 1999",
         "References": "PS1301A",
         "Developers": "Core Design",
@@ -3829,7 +3829,7 @@ var datas = [
     },
     {
         "ID": "320",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Curse of Darkness",
         "ReleaseDate": "1 November 2005",
         "References": "PS2302A",
         "Developers": "Konami",
@@ -3841,7 +3841,7 @@ var datas = [
     },
     {
         "ID": "321",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Lament of Innocence",
         "ReleaseDate": "21 October 2003",
         "References": "PS2303A",
         "Developers": "Konami",
@@ -3853,7 +3853,7 @@ var datas = [
     },
     {
         "ID": "322",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Lament of Innocence",
         "ReleaseDate": "21 October 2003",
         "References": "PS2303B",
         "Developers": "Konami",
@@ -3865,7 +3865,7 @@ var datas = [
     },
     {
         "ID": "323",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Lament of Innocence",
         "ReleaseDate": "21 October 2003",
         "References": "PS2303C",
         "Developers": "Konami",
@@ -3877,7 +3877,7 @@ var datas = [
     },
     {
         "ID": "324",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Gungrave",
         "ReleaseDate": "7 September 2002",
         "References": "PS2304A",
         "Developers": "Red Entertainment",
@@ -3889,7 +3889,7 @@ var datas = [
     },
     {
         "ID": "325",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Ratchet: Deadlocked",
         "ReleaseDate": "25 October 2005",
         "References": "PS2305A",
         "Developers": "Insomniac Games",
@@ -3901,7 +3901,7 @@ var datas = [
     },
     {
         "ID": "326",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Silent Hill 2",
         "ReleaseDate": "28 September 2001",
         "References": "PS2306A",
         "Developers": "Konami",
@@ -3913,7 +3913,7 @@ var datas = [
     },
     {
         "ID": "327",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Tomb Raider: The Angel of Darkness",
         "ReleaseDate": "19 June 2003",
         "References": "PS2307A",
         "Developers": "Core Design",
@@ -3925,7 +3925,7 @@ var datas = [
     },
     {
         "ID": "328",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Alone in the Dark: Inferno",
         "ReleaseDate": "18 November 2008",
         "References": "PS3308A",
         "Developers": "Eden Games",
@@ -3937,7 +3937,7 @@ var datas = [
     },
     {
         "ID": "329",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "BioShock",
         "ReleaseDate": "21 October 2008",
         "References": "PS3309A",
         "Developers": "2K",
@@ -3949,7 +3949,7 @@ var datas = [
     },
     {
         "ID": "330",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "BioShock Infinite",
         "ReleaseDate": "26 March 2013",
         "References": "PS3310A",
         "Developers": "2K",
@@ -3961,7 +3961,7 @@ var datas = [
     },
     {
         "ID": "331",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Bioshock 2",
         "ReleaseDate": "9 February 2010",
         "References": "PS3311A",
         "Developers": "2K",
@@ -3973,7 +3973,7 @@ var datas = [
     },
     {
         "ID": "332",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Bioshock 2",
         "ReleaseDate": "9 February 2010",
         "References": "PS3311B",
         "Developers": "2K",
@@ -3985,7 +3985,7 @@ var datas = [
     },
     {
         "ID": "333",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Lords of Shadow",
         "ReleaseDate": "5 October 2010",
         "References": "PS3312A",
         "Developers": "Mercury Steam",
@@ -3997,7 +3997,7 @@ var datas = [
     },
     {
         "ID": "334",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Lords of Shadow 2",
         "ReleaseDate": "28 February 2014",
         "References": "PS3313A",
         "Developers": "Mercury Steam",
@@ -4009,7 +4009,7 @@ var datas = [
     },
     {
         "ID": "335",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dark Souls",
         "ReleaseDate": "4 October 2011",
         "References": "PS3314A",
         "Developers": "From Software",
@@ -4021,7 +4021,7 @@ var datas = [
     },
     {
         "ID": "336",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dark Souls II",
         "ReleaseDate": "14 March 2014",
         "References": "PS3315A",
         "Developers": "From Software",
@@ -4033,7 +4033,7 @@ var datas = [
     },
     {
         "ID": "337",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dark Souls II",
         "ReleaseDate": "14 March 2014",
         "References": "PS3315B",
         "Developers": "From Software",
@@ -4045,7 +4045,7 @@ var datas = [
     },
     {
         "ID": "338",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "God of War Collection",
         "ReleaseDate": "17 November 2009",
         "References": "PS3316A",
         "Developers": "Sony",
@@ -4057,7 +4057,7 @@ var datas = [
     },
     {
         "ID": "339",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "God of War: Origins Collection",
         "ReleaseDate": "13 September 2011",
         "References": "PS3317A",
         "Developers": "Ready at Dawn",
@@ -4069,7 +4069,7 @@ var datas = [
     },
     {
         "ID": "340",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Gran Turismo 5: Prologue",
         "ReleaseDate": "17 April 2008",
         "References": "PS3318A",
         "Developers": "Polyphony D.",
@@ -4081,7 +4081,7 @@ var datas = [
     },
     {
         "ID": "341",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Heavenly Sword",
         "ReleaseDate": "25 September 2007",
         "References": "PS3319A",
         "Developers": "Ninja Theory",
@@ -4093,7 +4093,7 @@ var datas = [
     },
     {
         "ID": "342",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mass Effect 3",
         "ReleaseDate": "6 March 2012",
         "References": "PS3320A",
         "Developers": "BioWare",
@@ -4105,7 +4105,7 @@ var datas = [
     },
     {
         "ID": "343",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mirror's Edge",
         "ReleaseDate": "11 November 2008",
         "References": "PS3321A",
         "Developers": "EA DICE",
@@ -4117,7 +4117,7 @@ var datas = [
     },
     {
         "ID": "344",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Rocksmith",
         "ReleaseDate": "18 October 2011",
         "References": "PS3322A",
         "Developers": "Ubisoft",
@@ -4129,7 +4129,7 @@ var datas = [
     },
     {
         "ID": "345",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Rocksmith",
         "ReleaseDate": "18 October 2011",
         "References": "PS3322B",
         "Developers": "Ubisoft",
@@ -4141,7 +4141,7 @@ var datas = [
     },
     {
         "ID": "346",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "BioShock: The Collection",
         "ReleaseDate": "16 September 2016",
         "References": "PS4323A",
         "Developers": "Blind Squirrel",
@@ -4153,7 +4153,7 @@ var datas = [
     },
     {
         "ID": "347",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Blood Bowl 2",
         "ReleaseDate": "22 September 2015",
         "References": "PS4324A",
         "Developers": "Cyanide Studio",
@@ -4165,7 +4165,7 @@ var datas = [
     },
     {
         "ID": "348",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Bloodborne",
         "ReleaseDate": "25 March 2015",
         "References": "PS4325A",
         "Developers": "From Software",
@@ -4177,7 +4177,7 @@ var datas = [
     },
     {
         "ID": "349",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "DOOM",
         "ReleaseDate": "13 May 2016",
         "References": "PS4326A",
         "Developers": "id Software",
@@ -4189,7 +4189,7 @@ var datas = [
     },
     {
         "ID": "350",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dark Souls II: Scholar of the First Sin",
         "ReleaseDate": "3 April 2015",
         "References": "PS4327A",
         "Developers": "From Software",
@@ -4201,7 +4201,7 @@ var datas = [
     },
     {
         "ID": "351",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dark Souls III",
         "ReleaseDate": "12 April 2016",
         "References": "PS4328A",
         "Developers": "From Software",
@@ -4213,7 +4213,7 @@ var datas = [
     },
     {
         "ID": "352",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dark Souls: Remastered",
         "ReleaseDate": "25 May 2018",
         "References": "PS4329A",
         "Developers": "From Software",
@@ -4225,7 +4225,7 @@ var datas = [
     },
     {
         "ID": "353",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Deus Ex: Mankind Divided",
         "ReleaseDate": "23 August 2016",
         "References": "PS4330A",
         "Developers": "Eidos Montr\u00e9al",
@@ -4237,7 +4237,7 @@ var datas = [
     },
     {
         "ID": "354",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Devil May Cry: HD Collection",
         "ReleaseDate": "13 March 2018",
         "References": "PS4331A",
         "Developers": "Ninja Theory",
@@ -4249,7 +4249,7 @@ var datas = [
     },
     {
         "ID": "355",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Dishonored 2",
         "ReleaseDate": "11 November 2016",
         "References": "PS4332A",
         "Developers": "Arkane Studios",
@@ -4261,7 +4261,7 @@ var datas = [
     },
     {
         "ID": "356",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Fallout 4",
         "ReleaseDate": "10 November 2015",
         "References": "PS4333A",
         "Developers": "Bethesda Softworks",
@@ -4273,7 +4273,7 @@ var datas = [
     },
     {
         "ID": "357",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "God of War",
         "ReleaseDate": "20 April 2018",
         "References": "PS4334A",
         "Developers": "Santa Monica Studio",
@@ -4285,7 +4285,7 @@ var datas = [
     },
     {
         "ID": "358",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "God of War III Remastered",
         "ReleaseDate": "17 July 2015",
         "References": "PS4335A",
         "Developers": "Sony",
@@ -4297,7 +4297,7 @@ var datas = [
     },
     {
         "ID": "359",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mirror's Edge Catalyst",
         "ReleaseDate": "26 May 2016",
         "References": "PS4336A",
         "Developers": "EA DICE",
@@ -4309,7 +4309,7 @@ var datas = [
     },
     {
         "ID": "360",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Nioh",
         "ReleaseDate": "8 February 2017",
         "References": "PS4337A",
         "Developers": "Team Ninja",
@@ -4321,7 +4321,7 @@ var datas = [
     },
     {
         "ID": "361",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Rise of the Tomb Raider - 20 Year Celebration",
         "ReleaseDate": "11 October 2016",
         "References": "PS4338A",
         "Developers": "Crystal Dynamics",
@@ -4333,7 +4333,7 @@ var datas = [
     },
     {
         "ID": "362",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Rocksmith 2014 Edition",
         "ReleaseDate": "7 November 2014",
         "References": "PS4339A",
         "Developers": "Ubisoft",
@@ -4345,7 +4345,7 @@ var datas = [
     },
     {
         "ID": "363",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Shovel Knight",
         "ReleaseDate": "27 November 2015",
         "References": "PS4340A",
         "Developers": "Yacht Club Games",
@@ -4357,7 +4357,7 @@ var datas = [
     },
     {
         "ID": "364",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Star Wars: Battlefront",
         "ReleaseDate": "20 November 2015",
         "References": "PS4341A",
         "Developers": "EA DICE",
@@ -4369,7 +4369,7 @@ var datas = [
     },
     {
         "ID": "365",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Street Fighter V",
         "ReleaseDate": "16 February 2016",
         "References": "PS4342A",
         "Developers": "Capcom",
@@ -4381,7 +4381,7 @@ var datas = [
     },
     {
         "ID": "366",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Street Fighter: 30th Anniversary Collection",
         "ReleaseDate": "29 May 2018",
         "References": "PS4343A",
         "Developers": "Capcom",
@@ -4393,7 +4393,7 @@ var datas = [
     },
     {
         "ID": "367",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Tales of Berseria",
         "ReleaseDate": "27 January 2017",
         "References": "PS4344A",
         "Developers": "Namco",
@@ -4405,7 +4405,7 @@ var datas = [
     },
     {
         "ID": "368",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Elder Scrolls V: Skyrim - Special Edition",
         "ReleaseDate": "28 October 2016",
         "References": "PS4345A",
         "Developers": "Bethesda Softworks",
@@ -4417,7 +4417,7 @@ var datas = [
     },
     {
         "ID": "369",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Last of Us: Remastered",
         "ReleaseDate": "1 August 2014",
         "References": "PS4346A",
         "Developers": "Naughty Dog",
@@ -4429,7 +4429,7 @@ var datas = [
     },
     {
         "ID": "370",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Order: 1886",
         "ReleaseDate": "20 February 2015",
         "References": "PS4347A",
         "Developers": "Ready at Dawn",
@@ -4441,7 +4441,7 @@ var datas = [
     },
     {
         "ID": "371",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Surge",
         "ReleaseDate": "16 May 2017",
         "References": "PS4348A",
         "Developers": "Deck 13",
@@ -4453,7 +4453,7 @@ var datas = [
     },
     {
         "ID": "372",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Witcher 3: Wild Hunt",
         "ReleaseDate": "19 May 2015",
         "References": "PS4349A",
         "Developers": "CD Projekt Red",
@@ -4465,7 +4465,7 @@ var datas = [
     },
     {
         "ID": "373",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Titan Quest",
         "ReleaseDate": "20 March 2018",
         "References": "PS4350A",
         "Developers": "Iron Lore",
@@ -4477,7 +4477,7 @@ var datas = [
     },
     {
         "ID": "374",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Uncharted 4: A Thief's End",
         "ReleaseDate": "10 May 2016",
         "References": "PS4351A",
         "Developers": "Naughty Dog",
@@ -4489,7 +4489,7 @@ var datas = [
     },
     {
         "ID": "375",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "WindJammers",
         "ReleaseDate": "27 January 2018",
         "References": "PS4352A",
         "Developers": "DotEmu",
@@ -4501,7 +4501,7 @@ var datas = [
     },
     {
         "ID": "376",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Asterix",
         "ReleaseDate": "1993",
         "References": "SNE353A",
         "Developers": "Infogrames",
@@ -4513,7 +4513,7 @@ var datas = [
     },
     {
         "ID": "377",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Cool Spot",
         "ReleaseDate": "24 February 1993",
         "References": "SNE354A",
         "Developers": "Virgin Games",
@@ -4525,7 +4525,7 @@ var datas = [
     },
     {
         "ID": "378",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Doom",
         "ReleaseDate": "26 October 1995",
         "References": "SNE355A",
         "Developers": "Sculptured Software, Inc.",
@@ -4537,7 +4537,7 @@ var datas = [
     },
     {
         "ID": "379",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Final Fantasy: Mystic Quest",
         "ReleaseDate": "10 September 1992",
         "References": "SNE356A",
         "Developers": "Square",
@@ -4549,7 +4549,7 @@ var datas = [
     },
     {
         "ID": "380",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Jurassic Park",
         "ReleaseDate": "23 December 1993",
         "References": "SNE357A",
         "Developers": "Ocean",
@@ -4561,7 +4561,7 @@ var datas = [
     },
     {
         "ID": "381",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mortal Kombat",
         "ReleaseDate": "13 September 1993",
         "References": "SNE358A",
         "Developers": "Sculptured Software, Inc.",
@@ -4573,7 +4573,7 @@ var datas = [
     },
     {
         "ID": "382",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Sailormoon",
         "ReleaseDate": null,
         "References": "SNE359A",
         "Developers": "Angel",
@@ -4585,7 +4585,7 @@ var datas = [
     },
     {
         "ID": "383",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Street Fighter II Turbo",
         "ReleaseDate": "11 July 1993",
         "References": "SNE360A",
         "Developers": "Capcom",
@@ -4597,7 +4597,7 @@ var datas = [
     },
     {
         "ID": "384",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Mario All-Stars",
         "ReleaseDate": "1 August 1993",
         "References": "SNE361A",
         "Developers": "Nintendo",
@@ -4609,7 +4609,7 @@ var datas = [
     },
     {
         "ID": "385",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Mario Kart",
         "ReleaseDate": "1 September 1992",
         "References": "SNE362A",
         "Developers": "Nintendo",
@@ -4621,7 +4621,7 @@ var datas = [
     },
     {
         "ID": "386",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Metroid",
         "ReleaseDate": "19 March 1994",
         "References": "SNE363A",
         "Developers": "Intelligent Systems",
@@ -4633,7 +4633,7 @@ var datas = [
     },
     {
         "ID": "387",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Super Street Fighter II: The New Challengers",
         "ReleaseDate": "25 June 1994",
         "References": "SNE364A",
         "Developers": "Capcom",
@@ -4645,7 +4645,7 @@ var datas = [
     },
     {
         "ID": "388",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "The Legend of Zelda: A Link to the Past",
         "ReleaseDate": "13 April 1992",
         "References": "SNE365A",
         "Developers": "Nintendo",
@@ -4657,7 +4657,7 @@ var datas = [
     },
     {
         "ID": "389",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Asterix",
         "ReleaseDate": "1 January 1991",
         "References": "SMS366A",
         "Developers": "Sega",
@@ -4669,7 +4669,7 @@ var datas = [
     },
     {
         "ID": "390",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Alone in the Dark",
         "ReleaseDate": "24 June 2008",
         "References": "WII367A",
         "Developers": "Hydravision",
@@ -4681,7 +4681,7 @@ var datas = [
     },
     {
         "ID": "391",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Castlevania: Judgment",
         "ReleaseDate": "18 November 2008",
         "References": "WII368A",
         "Developers": "Konami",
@@ -4693,7 +4693,7 @@ var datas = [
     },
     {
         "ID": "392",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Guitar Hero 5",
         "ReleaseDate": "1 September 2009",
         "References": "WII369A",
         "Developers": "Vicarious Visions",
@@ -4705,7 +4705,7 @@ var datas = [
     },
     {
         "ID": "393",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Guitar Hero III: Legends of Rock",
         "ReleaseDate": "28 October 2007",
         "References": "WII370A",
         "Developers": "Harmonix",
@@ -4717,7 +4717,7 @@ var datas = [
     },
     {
         "ID": "394",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Guitar Hero: Warriors of Rock",
         "ReleaseDate": "28 September 2010",
         "References": "WII371A",
         "Developers": "Vicarious Visions",
@@ -4729,7 +4729,7 @@ var datas = [
     },
     {
         "ID": "395",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Mario Kart Wii",
         "ReleaseDate": "27 April 2008",
         "References": "WII372A",
         "Developers": "Nintendo",
@@ -4741,7 +4741,7 @@ var datas = [
     },
     {
         "ID": "396",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Metroid Prime 3: Corruption",
         "ReleaseDate": "27 August 2007",
         "References": "WII373A",
         "Developers": "Retro Studios",
@@ -4753,7 +4753,7 @@ var datas = [
     },
     {
         "ID": "397",
-        "Title": "The Legend of Zelda: Twilight Princess",
+        "Title": "Metroid: Other M",
         "ReleaseDate": "31 August 2010",
         "References": "WII374A",
         "Developers": "Nintendo",

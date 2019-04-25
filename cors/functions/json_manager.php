@@ -2,7 +2,7 @@
 $json = "datas/sql_request.json";
 
 function requestJson($jsonToWrite, $array) {
-/*
+
     // references
     function games_reference($array) {
         $letter = "A";
@@ -32,19 +32,19 @@ function requestJson($jsonToWrite, $array) {
         }
         return $references;
     }
-*/
-/*
     $games_references = games_reference($array);
 
     $bdd_test = new PDO("mysql:host=localhost;dbname=videogames", "root", "", array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 
-    for($i = 0; $i < count($games_references); $i++) {
-        $query_test = "UPDATE videogames SET Ref_games = '" . $games_references[$i] . "' WHERE id = " . ($i + 1);
-        var_dump($query_test);
-        $query = $bdd_test->query($query_test);
-        var_dump($query);
+    function references_maker($games_references_array, $bdd) {
+        for($i = 0; $i < count($games_references_array); $i++) {
+            $update_query_str = "UPDATE videogames SET Ref_games = '" . $games_references_array[$i] . "' WHERE id = " . ($i + 1);
+            $bdd->query($update_query_str);
+        }
     }
-*/
+
+    references_maker($games_references, $bdd_test);
+
 
     $jsonStrPretty = json_encode($array, JSON_PRETTY_PRINT);
     if (json_last_error_msg() > 0) {

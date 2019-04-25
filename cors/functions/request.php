@@ -2,11 +2,12 @@
 $jsonStrPretty = "[]";
 
 $bdd = new PDO("mysql:host=localhost;dbname=videogames", "root", "", array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
+
 $query = $bdd->query(
     'SELECT videogames.ID,
     Title, 
     ReleaseDate,
-    Ref_games AS "References",
+    Ref_games AS "References", 
     developers.NAME AS "Developers", 
     platform.NAME AS "Platform",
     platform.abbreviation AS "Abbreviation",
