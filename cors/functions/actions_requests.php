@@ -6,10 +6,35 @@ $bdd = new PDO("mysql:host=localhost;dbname=videogames", "root", "", array(PDO::
 
 for($i = 1; $i <= count($_SESSION["games"]); $i++) {
     $g_id = intval($_SESSION["game_id_" . $i]);
+
+    //title
     $g_title = $_POST["title_" . $i];
-    $test = "UPDATE videogames SET Title = '" . $g_title . "' WHERE videogames.id = " . $g_id;
-    var_dump($test);
-    $bdd->query($test);
+
+    //date
+    $g_day = $_POST["game_" . $i . "_day"];
+    $g_month = $_POST["game_" . $i . "_month"];
+    $g_year = $_POST["game_" . $i . "_year"];
+    $g_releaseDate = $g_day . " " . $g_month . " " . $g_year;
+
+    //developer
+    $g_developer_str = $_POST["developer_" . $i];
+    $g_developer_id_query = $bdd->query("SELECT id FROM Developers WHERE developers.name = '" . $g_developer_str . "'");
+    $g_developer_id = $g_developer_id_query->fetch()[0];
+
+    //platform
+    $g_platform_str = $_POST["platform_" . $i];
+    $g_platform_id_query = $bdd->query("SELECT id FROM Platform WHERE platform.name = '" . $g_platform_str . "'");
+    $g_platform_id = $g_platform_id_query->fetch()[0];
+
+
+    $g_title_query_str = "UPDATE videogames SET Title = '" . $g_title . "' WHERE videogames.id = " . $g_id .";";
+    $g_releaseDate_query_str = "UPDATE videogames SET ReleaseDate = '" . $g_releaseDate . "' WHERE videogames.id = " . $g_id .";";
+    $g_developer_query_str = "UPDATE videogames SET idDeveloper = '" . $g_developer_id . "' WHERE videogames.id = " . $g_id .";";
+    $g_platform_query_str = "UPDATE videogames SET idPlatform = '" . $g_platform_id . "' WHERE videogames.id = " . $g_id .";";
+    $bdd->query($g_title_query_str);
+    $bdd->query($g_releaseDate_query_str);
+    $bdd->query($g_developer_query_str);
+    $bdd->query($g_platform_query_str);
 }
 
 //var_dump($query->fetchAll(PDO::FETCH_OBJ));

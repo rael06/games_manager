@@ -19,13 +19,16 @@
                 $_SESSION["game_id_" . $game_number] = $game->ID;
                 ?>
                 <div class="game_form">
+                    <!-- title -->
                     <div class="field">
                         <label for="title">Titre :</label>
                         <input type="text" name="title_<?= $game_number ?>" value="<?= $game->Title ?>">
                     </div>
+                    <!-- date -->
                     <div class="field">
                         <?php include "cors/contents/date_form.php" ?>
                     </div>
+                    <!-- developer -->
                     <div class="field">
                         <label for="developer">Développeur :</label>
                         <select name="developer_<?= $game_number ?>">
@@ -39,6 +42,7 @@
                             ?>
                         </select>
                     </div>
+                    <!-- platform -->
                     <div class="field">
                         <label for="platform">Console :</label>
                         <select name="platform_<?= $game_number ?>">
@@ -52,19 +56,7 @@
                             ?>
                         </select>
                     </div>
-                    <div class="field">
-                        <label for="constructor">Constructeur :</label>
-                        <select name="constructor_<?= $game_number ?>">
-                            <option type="text" value="<?= $game->Constructor ?>"><?= $game->Constructor ?></option>
-                            <?php
-                            foreach ($constructors as $constructor) :
-                            ?>
-                            <option type="text" value="<?= $constructor->name ?>"><?= $constructor->name ?></option>
-                            <?php
-                            endforeach;
-                            ?>
-                        </select>
-                    </div>
+                    <!-- kinds -->
                     <div class="field">
                         <label for="kind">Genre :</label>
                         <select name="kind_<?= $game_number ?>">
@@ -78,7 +70,7 @@
                             ?>
                         </select>
                     </div>
-                    
+                    <!-- publisher -->
                     <div class="field">
                         <label for="publisher">Éditeur :</label>
                         <select name="publisher_<?= $game_number ?>">

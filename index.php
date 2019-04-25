@@ -8,7 +8,9 @@ if (!isset($_SESSION["user"]) || $_SESSION["user"] === "wrong") {
     include "cors/functions/request.php";
     if (isset($_POST["create"])) {
         include "cors/contents/actions/update.php";
-    } elseif (isset($_POST["update"])) {
+    } elseif (isset($_POST["update"]) && !isset($_POST["game"])) {
+        include "cors/contents/table_display.php";
+    } elseif (isset($_POST["update"]) && count($_POST["game"]) > 0) {
         include "cors/contents/actions/update.php";
     } elseif (isset($_POST["delete"])) {
         include "cors/contents/actions/delete.php";
