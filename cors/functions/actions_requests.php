@@ -32,9 +32,20 @@ for($i = 1; $i <= count($_SESSION["games"]); $i++) {
     $g_publisher_id = $g_publisher_id_query->fetch()[0];
 
     //kinds
-    
+    $g_kinds_str = [];
+    for ($j = 0; $j < count($_POST["kinds_" . $i]); $j++) {
+        $g_kind_str = $_POST["kinds_" . $i][$j];
+        $g_kind_id_query = $bdd->query("SELECT id FROM Genres WHERE genres.name = '" . $g_kind_str . "'");
+        $g_kind_id = $g_kind_id_query->fetch()[0];
+        $g_kinds_id[] = $g_kind_id;
+    }
 
-
+    //faire query pour kinds
+    /*
+    for ($j = 0; $j < count($g_kinds_id); $j++) {
+        $g_kinds_query_str = "INSERT OR UPDATE gamesgenres SET idGenre = '" . $;
+    }
+    */
     $g_title_query_str = "UPDATE videogames SET Title = '" . $g_title . "' WHERE videogames.id = " . $g_id .";";
     $g_releaseDate_query_str = "UPDATE videogames SET ReleaseDate = '" . $g_releaseDate . "' WHERE videogames.id = " . $g_id .";";
     $g_developer_query_str = "UPDATE videogames SET idDeveloper = '" . $g_developer_id . "' WHERE videogames.id = " . $g_id .";";

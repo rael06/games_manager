@@ -64,7 +64,7 @@
                         <?php
                         foreach ($kinds as $kind) :
                         ?>
-                        <input type="checkbox" name="kinds[]" value="<?= $kind->name ?>"><?= $kind->name ?></option>
+                        <input type="checkbox" name="kinds_<?= $game_number ?>[]" value="<?= $kind->name ?>"><?= $kind->name ?></option>
                         <?php
                         endforeach;
                         ?>
