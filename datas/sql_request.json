@@ -44,7 +44,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Action, Racing",
+        "Kinds": "Racing",
         "Publishers": "Take 2 Interactive"
     },
     {
@@ -164,7 +164,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Adventure, Shooter",
+        "Kinds": "Shooter, Adventure",
         "Publishers": "Acclaim"
     },
     {
@@ -308,7 +308,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Action, Sports",
+        "Kinds": "Sports, Action",
         "Publishers": "Sega"
     },
     {
@@ -332,7 +332,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "RPG, Adventure",
+        "Kinds": "Adventure, RPG",
         "Publishers": "Eidos Interactive"
     },
     {
@@ -524,7 +524,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "RPG, Adventure",
+        "Kinds": "Adventure, RPG",
         "Publishers": "Infogrames"
     },
     {
@@ -572,7 +572,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Adventure, Platformer",
+        "Kinds": "Platformer, Adventure",
         "Publishers": "Sega"
     },
     {
@@ -608,7 +608,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Party, Music",
+        "Kinds": "Music, Party",
         "Publishers": "Sega"
     },
     {
@@ -740,7 +740,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Simulation, Fighting",
+        "Kinds": "Fighting, Simulation",
         "Publishers": "Sega"
     },
     {
@@ -1124,7 +1124,7 @@ var datas = [
         "Platform": "Gameboy Advance",
         "Abbreviation": "GBA",
         "Constructor": "Nintendo",
-        "Kinds": "RPG, Strategy",
+        "Kinds": "Sports, Strategy",
         "Publishers": "Nintendo"
     },
     {
@@ -1700,7 +1700,7 @@ var datas = [
         "Platform": "Mega Drive",
         "Abbreviation": "MGD",
         "Constructor": "Sega",
-        "Kinds": "Platformer, Action\/Adventure, Action, Adventure",
+        "Kinds": "Action\/Adventure, Action, Adventure, Platformer",
         "Publishers": "Sega"
     },
     {

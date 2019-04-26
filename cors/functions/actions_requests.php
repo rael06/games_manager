@@ -1,11 +1,10 @@
 <?php
 session_start();
-var_dump($_POST);
-var_dump($_SESSION);
 $bdd = new PDO("mysql:host=localhost;dbname=videogames", "root", "", array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 
 for($i = 1; $i <= count($_SESSION["games"]); $i++) {
     $g_id = intval($_SESSION["game_id_" . $i]);
+    $g_ref = $bdd->query("SELECT SUBSTR(ref_games, 1, 6) FROM videogames WHERE id = " . $g_id)->fetch()[0];
 
     //title
     $g_title = $_POST["title_" . $i];
@@ -33,30 +32,47 @@ for($i = 1; $i <= count($_SESSION["games"]); $i++) {
 
     //kinds
     $g_kinds_str = [];
-    for ($j = 0; $j < count($_POST["kinds_" . $i]); $j++) {
-        $g_kind_str = $_POST["kinds_" . $i][$j];
-        $g_kind_id_query = $bdd->query("SELECT id FROM Genres WHERE genres.name = '" . $g_kind_str . "'");
-        $g_kind_id = $g_kind_id_query->fetch()[0];
-        $g_kinds_id[] = $g_kind_id;
-    }
+    if (isset($_POST["kinds_" . $i])) {
+        $kinds = $_POST["kinds_" . $i];
+        for ($j = 0; $j < count($kinds); $j++) {
+            $g_kind_str = $_POST["kinds_" . $i][$j];
+            $g_kind_id_query = $bdd->query("SELECT id FROM Genres WHERE genres.name = '" . $g_kind_str . "'");
+            $g_kind_id = $g_kind_id_query->fetch()[0];
+            $g_kinds_id[] = $g_kind_id;
+        }
 
-    //faire query pour kinds
-    /*
-    for ($j = 0; $j < count($g_kinds_id); $j++) {
-        $g_kinds_query_str = "INSERT OR UPDATE gamesgenres SET idGenre = '" . $;
+
+        $g_ids = $bdd->query("SELECT id FROM videogames INNER JOIN gamesgenres ON id = idVideoGame WHERE ref_games LIKE '" . $g_ref . "%' ORDER BY idGenre")->fetchAll(PDO::FETCH_OBJ);
+        for ($k = 0; $k < count($g_ids); $k++){
+            //deletes old kinds for each game's id of same reference
+            $g_delete_old_entries_str = "DELETE FROM gamesgenres WHERE idVideoGame = " . $g_ids[$k]->id;
+            $bdd->query($g_delete_old_entries_str);
+        }
+        for ($j = 0; $j < count($g_kinds_id); $j++) {
+            $idGenre = intval($g_kinds_id[$j]);
+            for ($k = 0; $k < count($g_ids); $k++){
+                //inserts new kinds for each game's id of same reference
+                $g_kinds_query_str = "INSERT INTO gamesgenres (idGenre, idVideoGame) VALUES (" . $idGenre . ", " . $g_ids[$k]->id . ")";
+                $bdd->query($g_kinds_query_str);
+            }
+        }
+    } else {
+        $kinds = [];
     }
-    */
-    $g_title_query_str = "UPDATE videogames SET Title = '" . $g_title . "' WHERE videogames.id = " . $g_id .";";
-    $g_releaseDate_query_str = "UPDATE videogames SET ReleaseDate = '" . $g_releaseDate . "' WHERE videogames.id = " . $g_id .";";
-    $g_developer_query_str = "UPDATE videogames SET idDeveloper = '" . $g_developer_id . "' WHERE videogames.id = " . $g_id .";";
-    $g_platform_query_str = "UPDATE videogames SET idPlatform = '" . $g_platform_id . "' WHERE videogames.id = " . $g_id .";";
-    $g_publisher_query_str = "UPDATE videogames SET idPublisher = '" . $g_publisher_id . "' WHERE videogames.id = " . $g_id .";";
+    
+    $g_title_query_str = "UPDATE videogames SET Title = '" . $g_title . "' WHERE ref_games LIKE '" . $g_ref . "%'";
+    $g_releaseDate_query_str = "UPDATE videogames SET ReleaseDate = '" . $g_releaseDate . "' WHERE ref_games LIKE '" . $g_ref . "%'";
+    $g_developer_query_str = "UPDATE videogames SET idDeveloper = '" . $g_developer_id . "' WHERE ref_games LIKE '" . $g_ref . "%'";
+    $g_platform_query_str = "UPDATE videogames SET idPlatform = '" . $g_platform_id . "' WHERE ref_games LIKE '" . $g_ref . "%'";
+    $g_publisher_query_str = "UPDATE videogames SET idPublisher = '" . $g_publisher_id . "' WHERE ref_games LIKE '" . $g_ref . "%'";
     $bdd->query($g_title_query_str);
     $bdd->query($g_releaseDate_query_str);
     $bdd->query($g_developer_query_str);
     $bdd->query($g_platform_query_str);
     $bdd->query($g_publisher_query_str);
 }
+unset($_SESSION["games"]);
+header("location:../../index.php");
 
 //var_dump($query->fetchAll(PDO::FETCH_OBJ));
 /*

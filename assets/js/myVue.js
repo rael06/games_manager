@@ -55,7 +55,10 @@ window.onload = function () {
         computed: {
             filtered: function () {	//filter function
                 return this.datas.filter(element => containedSearched(this.search, element))
-            }
+            }/*,
+            searches: function () {	//filter function
+                return this.search.split(" ");
+            }*/
         }
     })
 }

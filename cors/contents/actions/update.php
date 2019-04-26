@@ -56,19 +56,6 @@
                             ?>
                         </select>
                     </div>
-                    <!-- kinds need loop -->
-                    <div class="field">
-                        <label for="kind">Genre :</label>
-                        <span><?= $game->Kinds ?></span>
-                        <br>
-                        <?php
-                        foreach ($kinds as $kind) :
-                        ?>
-                        <input type="checkbox" name="kinds_<?= $game_number ?>[]" value="<?= $kind->name ?>"><?= $kind->name ?></option>
-                        <?php
-                        endforeach;
-                        ?>
-                    </div>
                     <!-- publisher -->
                     <div class="field">
                         <label for="publisher">Éditeur :</label>
@@ -82,6 +69,31 @@
                             endforeach;
                             ?>
                         </select>
+                    </div>
+                    <!-- kinds need loop -->
+                    <div class="kinds_update">
+                        <label for="kind">Genre :</label>
+                        <span><?= $game->Kinds ?></span>
+                        <br>
+                        <div class="kinds_checkboxxes">
+                            <?php
+                            foreach ($kinds as $kind) :
+                                // to mark as "checked" every existing kind of game
+                                $array_kinds = explode(", ", $game->Kinds);
+                                if(in_array($kind->name, $array_kinds)) {
+                                    $checked = "checked";
+                                } else {
+                                    $checked = "";
+                                }
+                                //
+                            ?>
+                            <div class="choices">
+                                <input class="kinds_checkbox" type="checkbox" name="kinds_<?= $game_number ?>[]" value="<?= $kind->name ?>" <?= $checked ?>><?= $kind->name ?></option>
+                            </div>
+                            <?php
+                            endforeach;
+                            ?>
+                        </div>
                     </div>
                 </div>
             <?php

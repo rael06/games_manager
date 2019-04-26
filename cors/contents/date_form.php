@@ -42,7 +42,6 @@ if (!isset($_POST["game"])) {
         case "12":
             $actual_month = "December";
             break;
-        
         default:
             $actual_month = "January";
             break;
