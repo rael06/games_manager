@@ -56,19 +56,18 @@
                             ?>
                         </select>
                     </div>
-                    <!-- kinds -->
+                    <!-- kinds need loop -->
                     <div class="field">
                         <label for="kind">Genre :</label>
-                        <select name="kind_<?= $game_number ?>">
-                            <option type="text" value="<?= $game->Kinds ?>"><?= $game->Kinds ?></option>
-                            <?php
-                            foreach ($kinds as $kind) :
-                            ?>
-                            <option type="text" value="<?= $kind->name ?>"><?= $kind->name ?></option>
-                            <?php
-                            endforeach;
-                            ?>
-                        </select>
+                        <span><?= $game->Kinds ?></span>
+                        <br>
+                        <?php
+                        foreach ($kinds as $kind) :
+                        ?>
+                        <input type="checkbox" name="kinds[]" value="<?= $kind->name ?>"><?= $kind->name ?></option>
+                        <?php
+                        endforeach;
+                        ?>
                     </div>
                     <!-- publisher -->
                     <div class="field">

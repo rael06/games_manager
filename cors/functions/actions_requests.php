@@ -26,15 +26,25 @@ for($i = 1; $i <= count($_SESSION["games"]); $i++) {
     $g_platform_id_query = $bdd->query("SELECT id FROM Platform WHERE platform.name = '" . $g_platform_str . "'");
     $g_platform_id = $g_platform_id_query->fetch()[0];
 
+    //publisher
+    $g_publisher_str = $_POST["publisher_" . $i];
+    $g_publisher_id_query = $bdd->query("SELECT id FROM Publishers WHERE publishers.name = '" . $g_publisher_str . "'");
+    $g_publisher_id = $g_publisher_id_query->fetch()[0];
+
+    //kinds
+    
+
 
     $g_title_query_str = "UPDATE videogames SET Title = '" . $g_title . "' WHERE videogames.id = " . $g_id .";";
     $g_releaseDate_query_str = "UPDATE videogames SET ReleaseDate = '" . $g_releaseDate . "' WHERE videogames.id = " . $g_id .";";
     $g_developer_query_str = "UPDATE videogames SET idDeveloper = '" . $g_developer_id . "' WHERE videogames.id = " . $g_id .";";
     $g_platform_query_str = "UPDATE videogames SET idPlatform = '" . $g_platform_id . "' WHERE videogames.id = " . $g_id .";";
+    $g_publisher_query_str = "UPDATE videogames SET idPublisher = '" . $g_publisher_id . "' WHERE videogames.id = " . $g_id .";";
     $bdd->query($g_title_query_str);
     $bdd->query($g_releaseDate_query_str);
     $bdd->query($g_developer_query_str);
     $bdd->query($g_platform_query_str);
+    $bdd->query($g_publisher_query_str);
 }
 
 //var_dump($query->fetchAll(PDO::FETCH_OBJ));
