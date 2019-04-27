@@ -8,7 +8,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Racing, Simulation",
+        "Kinds": "Simulation, Racing",
         "Publishers": "Sega"
     },
     {
@@ -20,7 +20,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Simulation, Racing",
+        "Kinds": "Racing, Simulation",
         "Publishers": "Sega"
     },
     {
@@ -44,7 +44,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Racing",
+        "Kinds": "Action, Racing",
         "Publishers": "Take 2 Interactive"
     },
     {
@@ -164,7 +164,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Shooter, Adventure",
+        "Kinds": "Adventure, Shooter",
         "Publishers": "Acclaim"
     },
     {
@@ -308,7 +308,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Sports, Action",
+        "Kinds": "Action, Sports",
         "Publishers": "Sega"
     },
     {
@@ -332,7 +332,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Adventure, RPG",
+        "Kinds": "RPG, Adventure",
         "Publishers": "Eidos Interactive"
     },
     {
@@ -344,7 +344,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Action, Shooter",
+        "Kinds": "Shooter, Action",
         "Publishers": "Sega"
     },
     {
@@ -476,7 +476,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Adventure, Survival Horror",
+        "Kinds": "Survival Horror, Adventure",
         "Publishers": "Capcom"
     },
     {
@@ -512,7 +512,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Action\/Adventure, Action, RPG, Adventure",
+        "Kinds": "RPG, Adventure, Action\/Adventure, Action",
         "Publishers": "Sega"
     },
     {
@@ -524,7 +524,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Adventure, RPG",
+        "Kinds": "RPG, Adventure",
         "Publishers": "Infogrames"
     },
     {
@@ -572,7 +572,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Platformer, Adventure",
+        "Kinds": "Adventure, Platformer",
         "Publishers": "Sega"
     },
     {
@@ -608,7 +608,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Music, Party",
+        "Kinds": "Party, Music",
         "Publishers": "Sega"
     },
     {
@@ -656,7 +656,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Racing, Simulation",
+        "Kinds": "Simulation, Racing",
         "Publishers": "Atari"
     },
     {
@@ -740,7 +740,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Fighting, Simulation",
+        "Kinds": "Simulation, Fighting",
         "Publishers": "Sega"
     },
     {
@@ -1124,7 +1124,7 @@ var datas = [
         "Platform": "Gameboy Advance",
         "Abbreviation": "GBA",
         "Constructor": "Nintendo",
-        "Kinds": "Sports, Strategy",
+        "Kinds": "RPG, Strategy",
         "Publishers": "Nintendo"
     },
     {
@@ -1652,7 +1652,7 @@ var datas = [
         "Platform": "Mega Drive",
         "Abbreviation": "MGD",
         "Constructor": "Sega",
-        "Kinds": "Simulation, Flight Simulation",
+        "Kinds": "Flight Simulation, Simulation",
         "Publishers": "Tengen"
     },
     {
@@ -1700,7 +1700,7 @@ var datas = [
         "Platform": "Mega Drive",
         "Abbreviation": "MGD",
         "Constructor": "Sega",
-        "Kinds": "Action\/Adventure, Action, Adventure, Platformer",
+        "Kinds": "Action, Adventure, Platformer, Action\/Adventure",
         "Publishers": "Sega"
     },
     {
@@ -1712,7 +1712,7 @@ var datas = [
         "Platform": "Mega Drive",
         "Abbreviation": "MGD",
         "Constructor": "Sega",
-        "Kinds": "Platformer, Puzzle",
+        "Kinds": "Puzzle, Platformer",
         "Publishers": "Sega"
     },
     {
@@ -1760,7 +1760,7 @@ var datas = [
         "Platform": "Mega Drive",
         "Abbreviation": "MGD",
         "Constructor": "Sega",
-        "Kinds": "Action, Adventure",
+        "Kinds": "Adventure, Action",
         "Publishers": "Sega"
     },
     {
@@ -3500,7 +3500,7 @@ var datas = [
         "Platform": "PSP",
         "Abbreviation": "PSP",
         "Constructor": "Sony",
-        "Kinds": "Party, Entertainment",
+        "Kinds": "Entertainment, Party",
         "Publishers": "Sony"
     },
     {
@@ -3512,7 +3512,7 @@ var datas = [
         "Platform": "PSP",
         "Abbreviation": "PSP",
         "Constructor": "Sony",
-        "Kinds": "RPG, Action",
+        "Kinds": "Action, RPG",
         "Publishers": "Konami"
     },
     {
@@ -3536,7 +3536,7 @@ var datas = [
         "Platform": "PSP",
         "Abbreviation": "PSP",
         "Constructor": "Sony",
-        "Kinds": "Adventure, Hack & Slash, Action\/Adventure, Action",
+        "Kinds": "Action\/Adventure, Action, Adventure, Hack & Slash",
         "Publishers": "Sony"
     },
     {
@@ -3548,7 +3548,7 @@ var datas = [
         "Platform": "PSP",
         "Abbreviation": "PSP",
         "Constructor": "Sony",
-        "Kinds": "Adventure, Hack & Slash, Action\/Adventure, Action",
+        "Kinds": "Action\/Adventure, Action, Adventure, Hack & Slash",
         "Publishers": "Sony"
     },
     {
@@ -3560,7 +3560,7 @@ var datas = [
         "Platform": "PSP",
         "Abbreviation": "PSP",
         "Constructor": "Sony",
-        "Kinds": "Action\/Adventure, Action, Adventure",
+        "Kinds": "Action, Adventure, Action\/Adventure",
         "Publishers": "Sony"
     },
     {
@@ -3704,7 +3704,7 @@ var datas = [
         "Platform": "PlayStation",
         "Abbreviation": "PS1",
         "Constructor": "Sony",
-        "Kinds": "Platformer, Action",
+        "Kinds": "Action, Platformer",
         "Publishers": "Blue Byte Software"
     },
     {
@@ -3776,7 +3776,7 @@ var datas = [
         "Platform": "PlayStation",
         "Abbreviation": "PS1",
         "Constructor": "Sony",
-        "Kinds": "Action, Fighting",
+        "Kinds": "Fighting, Action",
         "Publishers": "Capcom"
     },
     {
@@ -3788,7 +3788,7 @@ var datas = [
         "Platform": "PlayStation",
         "Abbreviation": "PS1",
         "Constructor": "Sony",
-        "Kinds": "RPG, Action",
+        "Kinds": "Action, RPG",
         "Publishers": "Enix"
     },
     {
@@ -3848,7 +3848,7 @@ var datas = [
         "Platform": "PlayStation 2",
         "Abbreviation": "PS2",
         "Constructor": "Sony",
-        "Kinds": "Action\/Adventure, Action, Adventure",
+        "Kinds": "Adventure, Action\/Adventure, Action",
         "Publishers": "Konami"
     },
     {
@@ -3860,7 +3860,7 @@ var datas = [
         "Platform": "PlayStation 2",
         "Abbreviation": "PS2",
         "Constructor": "Sony",
-        "Kinds": "Action, Adventure, Action\/Adventure",
+        "Kinds": "Action\/Adventure, Action, Adventure",
         "Publishers": "Konami"
     },
     {
@@ -3872,7 +3872,7 @@ var datas = [
         "Platform": "PlayStation 2",
         "Abbreviation": "PS2",
         "Constructor": "Sony",
-        "Kinds": "Action\/Adventure, Action, Adventure",
+        "Kinds": "Action, Adventure, Action\/Adventure",
         "Publishers": "Konami"
     },
     {
@@ -3896,7 +3896,7 @@ var datas = [
         "Platform": "PlayStation 2",
         "Abbreviation": "PS2",
         "Constructor": "Sony",
-        "Kinds": "Adventure, Platformer, Action\/Adventure, Action",
+        "Kinds": "Action\/Adventure, Action, Adventure, Platformer",
         "Publishers": "Sony"
     },
     {
@@ -3920,7 +3920,7 @@ var datas = [
         "Platform": "PlayStation 2",
         "Abbreviation": "PS2",
         "Constructor": "Sony",
-        "Kinds": "Adventure, Action\/Adventure, Action",
+        "Kinds": "Action\/Adventure, Action, Adventure",
         "Publishers": "Eidos Interactive"
     },
     {
@@ -3932,7 +3932,7 @@ var datas = [
         "Platform": "PlayStation 3",
         "Abbreviation": "PS3",
         "Constructor": "Sony",
-        "Kinds": "Survival Horror, Action\/Adventure, Action, Adventure",
+        "Kinds": "Action, Adventure, Survival Horror, Action\/Adventure",
         "Publishers": "Atari"
     },
     {
@@ -3968,7 +3968,7 @@ var datas = [
         "Platform": "PlayStation 3",
         "Abbreviation": "PS3",
         "Constructor": "Sony",
-        "Kinds": "Action, Adventure, FPS, Action\/Adventure",
+        "Kinds": "FPS, Action\/Adventure, Action, Adventure",
         "Publishers": "2K Games"
     },
     {
@@ -3980,7 +3980,7 @@ var datas = [
         "Platform": "PlayStation 3",
         "Abbreviation": "PS3",
         "Constructor": "Sony",
-        "Kinds": "Action, Adventure, FPS, Action\/Adventure",
+        "Kinds": "FPS, Action\/Adventure, Action, Adventure",
         "Publishers": "2K Games"
     },
     {
@@ -3992,7 +3992,7 @@ var datas = [
         "Platform": "PlayStation 3",
         "Abbreviation": "PS3",
         "Constructor": "Sony",
-        "Kinds": "Hack & Slash, Action\/Adventure, Action, Adventure",
+        "Kinds": "Action, Adventure, Hack & Slash, Action\/Adventure",
         "Publishers": "Konami"
     },
     {
@@ -4004,7 +4004,7 @@ var datas = [
         "Platform": "PlayStation 3",
         "Abbreviation": "PS3",
         "Constructor": "Sony",
-        "Kinds": "Action\/Adventure, Action, Adventure, Hack & Slash",
+        "Kinds": "Adventure, Hack & Slash, Action\/Adventure, Action",
         "Publishers": "Konami"
     },
     {
@@ -4052,7 +4052,7 @@ var datas = [
         "Platform": "PlayStation 3",
         "Abbreviation": "PS3",
         "Constructor": "Sony",
-        "Kinds": "Action, Adventure, Action\/Adventure",
+        "Kinds": "Action\/Adventure, Action, Adventure",
         "Publishers": "Sony"
     },
     {
@@ -4064,7 +4064,7 @@ var datas = [
         "Platform": "PlayStation 3",
         "Abbreviation": "PS3",
         "Constructor": "Sony",
-        "Kinds": "Action\/Adventure, Action, Adventure",
+        "Kinds": "Action, Adventure, Action\/Adventure",
         "Publishers": "Sony"
     },
     {
@@ -4088,7 +4088,7 @@ var datas = [
         "Platform": "PlayStation 3",
         "Abbreviation": "PS3",
         "Constructor": "Sony",
-        "Kinds": "Adventure, Action\/Adventure, Action",
+        "Kinds": "Action\/Adventure, Action, Adventure",
         "Publishers": "Sony"
     },
     {
@@ -4112,7 +4112,7 @@ var datas = [
         "Platform": "PlayStation 3",
         "Abbreviation": "PS3",
         "Constructor": "Sony",
-        "Kinds": "Adventure, FPS, Action\/Adventure, Action",
+        "Kinds": "Action\/Adventure, Action, Adventure, FPS",
         "Publishers": "Electronic Arts"
     },
     {
@@ -4280,7 +4280,7 @@ var datas = [
         "Platform": "PlayStation 4",
         "Abbreviation": "PS4",
         "Constructor": "Sony",
-        "Kinds": "Action\/Adventure, Action, Adventure",
+        "Kinds": "Adventure, Action\/Adventure, Action",
         "Publishers": "Sony"
     },
     {
@@ -4304,7 +4304,7 @@ var datas = [
         "Platform": "PlayStation 4",
         "Abbreviation": "PS4",
         "Constructor": "Sony",
-        "Kinds": "FPS, Action\/Adventure, Action, Adventure",
+        "Kinds": "Adventure, FPS, Action\/Adventure, Action",
         "Publishers": "Electronic Arts"
     },
     {
@@ -4328,7 +4328,7 @@ var datas = [
         "Platform": "PlayStation 4",
         "Abbreviation": "PS4",
         "Constructor": "Sony",
-        "Kinds": "Action\/Adventure, Action, Adventure",
+        "Kinds": "Adventure, Action\/Adventure, Action",
         "Publishers": "SquareSoft"
     },
     {
@@ -4484,7 +4484,7 @@ var datas = [
         "Platform": "PlayStation 4",
         "Abbreviation": "PS4",
         "Constructor": "Sony",
-        "Kinds": "Action\/Adventure, Action, Adventure",
+        "Kinds": "Action, Adventure, Action\/Adventure",
         "Publishers": "Sony"
     },
     {
@@ -4772,7 +4772,247 @@ var datas = [
         "Platform": "Wii",
         "Abbreviation": "WII",
         "Constructor": "Nintendo",
-        "Kinds": "Action\/Adventure, Action, RPG, Adventure",
+        "Kinds": "Adventure, Action\/Adventure, Action, Simulation, RPG",
         "Publishers": "Nintendo"
+    },
+    {
+        "ID": "399",
+        "Title": "test",
+        "ReleaseDate": "27 April 2019",
+        "References": "376A",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": "FPS, RPG",
+        "Publishers": null
+    },
+    {
+        "ID": "400",
+        "Title": "test_1",
+        "ReleaseDate": "27 April 2019",
+        "References": "377A",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": "Simulation",
+        "Publishers": null
+    },
+    {
+        "ID": "401",
+        "Title": "test_1",
+        "ReleaseDate": "27 April 2019",
+        "References": "377B",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": "Simulation",
+        "Publishers": null
+    },
+    {
+        "ID": "402",
+        "Title": "test_1",
+        "ReleaseDate": "27 April 2019",
+        "References": "377C",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": "Simulation",
+        "Publishers": null
+    },
+    {
+        "ID": "403",
+        "Title": "test_1",
+        "ReleaseDate": "27 April 2019",
+        "References": "377D",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": "Simulation",
+        "Publishers": null
+    },
+    {
+        "ID": "404",
+        "Title": "test_1",
+        "ReleaseDate": "27 April 2019",
+        "References": "377E",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": "Simulation",
+        "Publishers": null
+    },
+    {
+        "ID": "405",
+        "Title": "test_1",
+        "ReleaseDate": "27 April 2019",
+        "References": "377F",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": "Simulation, RPG",
+        "Publishers": null
+    },
+    {
+        "ID": "406",
+        "Title": "test_1",
+        "ReleaseDate": "27 April 2019",
+        "References": "377G",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": "Simulation, RPG, Platformer",
+        "Publishers": null
+    },
+    {
+        "ID": "407",
+        "Title": "test4",
+        "ReleaseDate": "27 April 2019",
+        "References": "378A",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": "Action, Adventure",
+        "Publishers": null
+    },
+    {
+        "ID": "408",
+        "Title": "test4",
+        "ReleaseDate": "27 April 2019",
+        "References": "378B",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": "Action, Adventure",
+        "Publishers": null
+    },
+    {
+        "ID": "409",
+        "Title": "",
+        "ReleaseDate": "27 April 2019",
+        "References": "379A",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": null,
+        "Publishers": null
+    },
+    {
+        "ID": "410",
+        "Title": "",
+        "ReleaseDate": "27 April 2019",
+        "References": "379B",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": null,
+        "Publishers": null
+    },
+    {
+        "ID": "411",
+        "Title": "",
+        "ReleaseDate": "27 April 2019",
+        "References": "379C",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": null,
+        "Publishers": null
+    },
+    {
+        "ID": "412",
+        "Title": "",
+        "ReleaseDate": "27 April 2019",
+        "References": "379D",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": null,
+        "Publishers": null
+    },
+    {
+        "ID": "413",
+        "Title": "test",
+        "ReleaseDate": "27 April 2019",
+        "References": "380A",
+        "Developers": "2K",
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": null,
+        "Publishers": null
+    },
+    {
+        "ID": "414",
+        "Title": "",
+        "ReleaseDate": "27 April 2019",
+        "References": "381A",
+        "Developers": "2K",
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": null,
+        "Publishers": null
+    },
+    {
+        "ID": "415",
+        "Title": "",
+        "ReleaseDate": "27 April 2019",
+        "References": "DCA381B",
+        "Developers": "2K",
+        "Platform": "Dreamcast",
+        "Abbreviation": "DCA",
+        "Constructor": "Sega",
+        "Kinds": null,
+        "Publishers": null
+    },
+    {
+        "ID": "416",
+        "Title": "",
+        "ReleaseDate": "27 April 2019",
+        "References": "DCA381C",
+        "Developers": "2K",
+        "Platform": "Dreamcast",
+        "Abbreviation": "DCA",
+        "Constructor": "Sega",
+        "Kinds": null,
+        "Publishers": null
+    },
+    {
+        "ID": "417",
+        "Title": "test 20",
+        "ReleaseDate": "27 April 2019",
+        "References": "GCU382A",
+        "Developers": null,
+        "Platform": "GameCube",
+        "Abbreviation": "GCU",
+        "Constructor": "Nintendo",
+        "Kinds": "Racing",
+        "Publishers": "Agetec"
+    },
+    {
+        "ID": "418",
+        "Title": "",
+        "ReleaseDate": "",
+        "References": "383A",
+        "Developers": null,
+        "Platform": null,
+        "Abbreviation": null,
+        "Constructor": null,
+        "Kinds": null,
+        "Publishers": null
     }
 ]

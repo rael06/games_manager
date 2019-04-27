@@ -1,8 +1,11 @@
 <?php
 session_start();
 $bdd = new PDO("mysql:host=localhost;dbname=videogames", "root", "", array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
-
-for($i = 1; $i <= count($_SESSION["games"]); $i++) {
+$g_count = count($_SESSION["games"]);
+if ($g_count === 0) {
+    $g_count = 1;
+}
+for($i = 1; $i <= $g_count; $i++) {
     $g_id = intval($_SESSION["game_id_" . $i]);
     $g_ref = $bdd->query("SELECT SUBSTR(ref_games, 1, 6) FROM videogames WHERE id = " . $g_id)->fetch()[0];
 
@@ -10,28 +13,31 @@ for($i = 1; $i <= count($_SESSION["games"]); $i++) {
     $g_title = $_POST["title_" . $i];
 
     //date
-    $g_day = $_POST["game_" . $i . "_day"];
-    $g_month = $_POST["game_" . $i . "_month"];
-    $g_year = $_POST["game_" . $i . "_year"];
-    $g_releaseDate = $g_day . " " . $g_month . " " . $g_year;
+    $g_day = !empty($_POST["game_" . $i . "_day"]) ? $_POST["game_" . $i . "_day"] : NULL;
+    $g_month = !empty($_POST["game_" . $i . "_month"]) ? $_POST["game_" . $i . "_month"] : NULL;
+    $g_year = !empty($_POST["game_" . $i . "_year"]) ? $_POST["game_" . $i . "_year"] : NULL;
+    $g_releaseDate = $g_day . $g_month . $g_year;
+    $g_releaseDate = empty($g_releaseDate) ? "" : trim($g_day . $g_month . $g_year);
 
     //developer
     $g_developer_str = $_POST["developer_" . $i];
     $g_developer_id_query = $bdd->query("SELECT id FROM Developers WHERE developers.name = '" . $g_developer_str . "'");
-    $g_developer_id = $g_developer_id_query->fetch()[0];
+    $g_developer_id = $g_developer_id_query->fetch(PDO::FETCH_OBJ)->id;
+    $g_developer_id = ($g_developer_id === null) ? "null" : $g_developer_id;
 
     //platform
     $g_platform_str = $_POST["platform_" . $i];
     $g_platform_id_query = $bdd->query("SELECT id FROM Platform WHERE platform.name = '" . $g_platform_str . "'");
-    $g_platform_id = $g_platform_id_query->fetch()[0];
+    $g_platform_id = $g_platform_id_query->fetch(PDO::FETCH_OBJ)->id;
+    $g_platform_id = ($g_platform_id === null) ? "null" : $g_platform_id;
 
     //publisher
     $g_publisher_str = $_POST["publisher_" . $i];
     $g_publisher_id_query = $bdd->query("SELECT id FROM Publishers WHERE publishers.name = '" . $g_publisher_str . "'");
-    $g_publisher_id = $g_publisher_id_query->fetch()[0];
+    $g_publisher_id = $g_publisher_id_query->fetch(PDO::FETCH_OBJ)->id;
+    $g_publisher_id = ($g_publisher_id === null) ? "null" : $g_publisher_id;
 
     //kinds
-    $g_kinds_str = [];
     if (isset($_POST["kinds_" . $i])) {
         $kinds = $_POST["kinds_" . $i];
         for ($j = 0; $j < count($kinds); $j++) {
@@ -59,17 +65,26 @@ for($i = 1; $i <= count($_SESSION["games"]); $i++) {
     } else {
         $kinds = [];
     }
-    
-    $g_title_query_str = "UPDATE videogames SET Title = '" . $g_title . "' WHERE ref_games LIKE '" . $g_ref . "%'";
-    $g_releaseDate_query_str = "UPDATE videogames SET ReleaseDate = '" . $g_releaseDate . "' WHERE ref_games LIKE '" . $g_ref . "%'";
-    $g_developer_query_str = "UPDATE videogames SET idDeveloper = '" . $g_developer_id . "' WHERE ref_games LIKE '" . $g_ref . "%'";
-    $g_platform_query_str = "UPDATE videogames SET idPlatform = '" . $g_platform_id . "' WHERE ref_games LIKE '" . $g_ref . "%'";
-    $g_publisher_query_str = "UPDATE videogames SET idPublisher = '" . $g_publisher_id . "' WHERE ref_games LIKE '" . $g_ref . "%'";
-    $bdd->query($g_title_query_str);
-    $bdd->query($g_releaseDate_query_str);
-    $bdd->query($g_developer_query_str);
-    $bdd->query($g_platform_query_str);
-    $bdd->query($g_publisher_query_str);
+    if ($_POST["form_type_send"] === "update_send") { // to update an entry
+        $g_title_query_str = "UPDATE videogames SET Title = '" . $g_title . "' WHERE ref_games LIKE '" . $g_ref . "%'";
+        $g_releaseDate_query_str = "UPDATE videogames SET ReleaseDate = '" . $g_releaseDate . "' WHERE ref_games LIKE '" . $g_ref . "%'";
+        $g_developer_query_str = "UPDATE videogames SET idDeveloper = '" . $g_developer_id . "' WHERE ref_games LIKE '" . $g_ref . "%'";
+        $g_platform_query_str = "UPDATE videogames SET idPlatform = '" . $g_platform_id . "' WHERE ref_games LIKE '" . $g_ref . "%'";
+        $g_publisher_query_str = "UPDATE videogames SET idPublisher = '" . $g_publisher_id . "' WHERE ref_games LIKE '" . $g_ref . "%'";
+        $bdd->query($g_title_query_str);
+        $bdd->query($g_releaseDate_query_str);
+        $bdd->query($g_developer_query_str);
+        $bdd->query($g_platform_query_str);
+        $bdd->query($g_publisher_query_str);
+    } else { // to create an entry
+        $g_new_game_query_str = "INSERT INTO videogames (Title, ReleaseDate, idDeveloper, idPlatform, idPublisher) VALUES ('" . $g_title . "', '" . $g_releaseDate . "', " . $g_developer_id . ", " . $g_platform_id . ", " . $g_publisher_id . ")";
+        $bdd->query($g_new_game_query_str);
+        $new_game_id = $bdd->query("SELECT id FROM videogames ORDER BY id DESC LIMIT 1")->fetch()[0];
+        for ($k = 0; $k < count($kinds); $k++) {
+            $g_new_game_gamesgenres_query_str = "INSERT INTO gamesgenres (idGenre, idVideoGame) VALUES (" . $g_kinds_id[$k] . ", " . $new_game_id . ")";
+            $bdd->query($g_new_game_gamesgenres_query_str);
+        }
+    }
 }
 unset($_SESSION["games"]);
 header("location:../../index.php");
@@ -84,7 +99,6 @@ function ref_remaker($pdo) {
     for ($i = 0; $i < count($selected); $i++) {
         
     }
-    
 }
 ref_remaker($bdd);
 */

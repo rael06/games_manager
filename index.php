@@ -13,6 +13,7 @@ if (!isset($_SESSION["user"]) || $_SESSION["user"] === "wrong") {
     } elseif (isset($_POST["update"]) && count($_POST["game"]) > 0) {
         include "cors/contents/actions/update.php";
     } elseif (isset($_POST["delete"])) {
+        include "cors/contents/table_display.php";
         include "cors/contents/actions/delete.php";
     } else {
         include "cors/contents/table_display.php";

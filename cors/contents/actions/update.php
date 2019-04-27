@@ -70,7 +70,7 @@
                             ?>
                         </select>
                     </div>
-                    <!-- kinds need loop -->
+                    <!-- kinds -->
                     <div class="kinds_update">
                         <label for="kind">Genre :</label>
                         <span><?= $game->Kinds ?></span>
@@ -95,11 +95,13 @@
                             ?>
                         </div>
                     </div>
+                    <button type="submit" name="form_type_send" value="update_send">Envoyer</button>
                 </div>
             <?php
             endforeach;
             else :
-                $game_number = 0;
+                $_SESSION["games"] = [];
+                $game_number = 1;
                 ?>
                 <div class="game_form">
                     <div class="field">
@@ -149,20 +151,6 @@
                         </select>
                     </div>
                     <div class="field">
-                        <label for="kind">Genre :</label>
-                        <select name="kind_<?= $game_number ?>">
-                            <option type="text" value=""></option>
-                            <?php
-                            foreach ($kinds as $kind) :
-                            ?>
-                            <option type="text" value="<?= $kind->name ?>"><?= $kind->name ?></option>
-                            <?php
-                            endforeach;
-                            ?>
-                        </select>
-                    </div>
-                    
-                    <div class="field">
                         <label for="publisher">Éditeur :</label>
                         <select name="publisher_<?= $game_number ?>">
                             <option type="text" value=""></option>
@@ -175,11 +163,27 @@
                             ?>
                         </select>
                     </div>
+                    <div class="kinds_update">
+                        <label for="kind">Genre :</label>
+                        <span></span>
+                        <br>
+                        <div class="kinds_checkboxxes">
+                            <?php
+                            foreach ($kinds as $kind) :
+                            ?>
+                            <div class="choices">
+                                <input class="kinds_checkbox" type="checkbox" name="kinds_<?= $game_number ?>[]" value="<?= $kind->name ?>"><?= $kind->name ?></option>
+                            </div>
+                            <?php
+                            endforeach;
+                            ?>
+                        </div>
+                    </div>
+                    <button type="submit" name="form_type_send" value="create_send">Envoyer</button>
                 </div>
             <?php
-        endif;
-        ?>
+            endif;
+            ?>
         </div>
-        <button type="submit" name="update_send" value="update_send">Envoyer</button>
     </form>
 </div>

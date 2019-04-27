@@ -9,6 +9,8 @@
     /*background-image: url("../pictures/die_retry_background.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .loginDiv {
@@ -98,6 +100,83 @@ label {
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
 }
+
+/* delete */
+.overlay {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.pop_up {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    background: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop_up_text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.action_button {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    bottom: 20%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.cancel_button {
+    left: 15%;
+    color: black;
+}
+
+.confirm_button {
+    right: 15%;
+    background: rgb(46, 84, 189);
+    color: white;
+}
+
+.close_button {
+    text-align: center;
+    color: white;
+    background: rgb(155, 1, 1);
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 5px;
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    top: 10%;
+    right: 7.5%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 /* table_display */
 .display {
     display: grid;
@@ -198,6 +277,9 @@ footer > div {
 }
 
 @media screen and (min-width: 767px) {
+    .pop_up_text {
+        font-size: 30px;
+    }
     .table_full .dates,
     .table_full .developers,
     .table_full .platforms,
@@ -234,6 +316,9 @@ footer > div {
 }
 
 @media screen and (min-width: 1300px) {
+    .pop_up_text {
+        font-size: 40px;
+    }
     .kinds_checkboxxes {
         grid-template-columns: 1fr 1fr 1fr;
     }
