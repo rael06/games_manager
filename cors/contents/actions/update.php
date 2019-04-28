@@ -94,11 +94,11 @@
                         ?>
                     </div>
                 </div>
-                <button type="submit" name="form_type_send" value="update_send">Envoyer</button>
             </div>
         <?php
         endforeach;
         ?>
         </div>
+        <button type="submit" name="form_type_send" value="update_send">Envoyer</button>
     </form>
 </div>

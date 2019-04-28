@@ -12,9 +12,6 @@
                 </div>
             </div>
         </div>
-        <footer>
-            <div>footer</div>
-        </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="assets/js/myVue.js"></script>

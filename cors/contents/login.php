@@ -24,6 +24,6 @@ $login_message = $_SESSION["login_message"];
         <input type="text" name="login" placeholder="Identifiant" value="<?= $login ?>" class="login_input">
         <label for="password">Mot de passe : </label>
         <input type="password" name="password" placeholder="Mot de passe" value="<?= $password ?>" class="login_input">
-        <button type="submit" name="send" value="send" class="login_submit">Envoyer</button>
+        <button type="submit" name="send" value="send" class="login_submit game_action_button">Envoyer</button>
     </form>
 </div>

@@ -2,14 +2,18 @@
     <div class="spinner-container">
         <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
     </div>
-    <form action="cors/functions/logout.php" method="POST">
-        <button type="submit" name="logout">Se déconnecter</button>
-    </form>
+    <div class="logout">
+        <form action="cors/functions/logout.php" method="POST">
+            <button type="submit" name="logout" class="game_action_button">Se déconnecter</button>
+        </form>
+    </div>
     <div class="content">
         <form action="index.php" method="POST" id="game-form">
-            <button type="submit" name="create" value="create">Ajouter une entrée</button>
-            <button type="submit" name="update" value="update">Modifier une entrée</button>
-            <button value="delete" class="delete">Supprimer une entrée</button>
+            <div class="game_action">
+                <button type="submit" name="create" value="create" class="create game_action_button">Ajouter une entrée</button>
+                <button type="submit" name="update" value="update" class="update game_action_button">Modifier une entrée</button>
+                <button value="delete" class="delete game_action_button">Supprimer une entrée</button>
+            </div>
             <div class="display">
                 <input type="text" placeholder="Rechercher dans ce tableau" v-model="search" class="search_in_array">
                 <div class="table_head_plus_scrollbar_fixer">
@@ -34,7 +38,7 @@
                 <div class="div_to_scroll undisplay">
                     <table class="table_full table_body">
                         <tbody>
-                            <tr v-for="game in filtered">
+                            <tr v-for="game in filtered" class="game_row">
                                 <td><input type="checkbox" name="game[]" :value="JSON.stringify(game)" class="checkbox"></td>
                                 <td class="ids">{{ game.ID }}</td>
                                 <td class="titles"><span>{{ game.Title }}</span></td>

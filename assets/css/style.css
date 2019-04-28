@@ -89,15 +89,14 @@
 		transform: translate(19px, 0);
     }
 }
-
 /*/spinner*/
+
 [data-template] {
     display: none!important;
 }
 
 .main_content {
     font-family: tahoma;
-    /*background-image: url("../pictures/die_retry_background.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
@@ -157,8 +156,33 @@ label {
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
 }
+/* logout button*/
+.logout {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 5%;
+}
 
 /* actions */
+/* create delete update buttons */
+.game_action {
+    display: flex;
+    width: 50%;
+    margin: 20px auto;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.game_action_button {
+	padding: 3px 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	cursor: pointer;
+}
+
 /* update, create forms */
 .forms {
     display: grid;
@@ -220,7 +244,7 @@ label {
     z-index: 2;
     padding: 10px 10px;
     margin: 0;
-    max-width: 760px;
+    max-width: 768px;
     max-height: 500px;
     flex: 1;
     height: 100%;
@@ -355,7 +379,8 @@ label {
 }
 input[type="checkbox"] {
     width: 20px; /*Desired width*/
-    height: 20px; /*Desired height*/
+	height: 20px; /*Desired height*/
+	cursor: pointer;
 }
 .table_body {
     background: rgb(243, 211, 211);
