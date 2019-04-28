@@ -1,4 +1,7 @@
 <section>
+    <div class="spinner-container">
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+    </div>
     <form action="cors/functions/logout.php" method="POST">
         <button type="submit" name="logout">Se déconnecter</button>
     </form>
@@ -28,7 +31,7 @@
                     </table>
                     <div class="scrollbar_width_fixer"></div>
                 </div>
-                <div class="div_to_scroll">
+                <div class="div_to_scroll undisplay">
                     <table class="table_full table_body">
                         <tbody>
                             <tr v-for="game in filtered">

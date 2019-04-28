@@ -5,7 +5,7 @@ include "cors/contents/header.php";
 if (!isset($_SESSION["user"]) || $_SESSION["user"] === "wrong") {
     require "cors/contents/login.php";
 } else {
-    include "cors/functions/request.php";
+    //include "cors/functions/request.php";
     if (isset($_POST["create"])) {
         include "cors/contents/actions/create.php";
     } elseif (isset($_POST["update"])) {

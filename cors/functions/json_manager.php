@@ -1,7 +1,6 @@
 <?php
-$json = "datas/sql_request.json";
 
-function requestJson($jsonToWrite, $array) {
+function requestJson($array) {
 
     // references
     function games_reference($array) {
@@ -50,8 +49,7 @@ function requestJson($jsonToWrite, $array) {
     if (json_last_error_msg() > 0) {
         var_dump(json_last_error_msg());
     }
-    $jsonStrPretty = "var datas = " . $jsonStrPretty;
-    file_put_contents($jsonToWrite, $jsonStrPretty);
+    return $jsonStrPretty;
 }
 
-requestJson($json, $listGames);
+print( requestJson($listGames) );

@@ -46,25 +46,53 @@ window.onload = function () {
     }
     */
 
-    var datasVue = new Vue({
-        el: "#content",
-        data: {
-            datas: datas,
-            search: ""
-        },
-        computed: {
-            filtered: function () {	//filter function
-                return this.datas.filter(element => containedSearched(this.search, element))
-            }/*,
-            searches: function () {	//filter function
-                return this.search.split(" ");
-            }*/
-        },
-        mounted: () => {
-            let main = new Main();
-            // infinite progress here *************************************************************************************************
-        }
-    })
+    function initVueJS(datasServer) {
+        var vueJS = new Vue({
+            el: "#content",
+            data: {
+                datas: datasServer,
+                search: ""
+            },
+            computed: {
+                filtered: function () {	//filter function
+                    return this.datas.filter(element => containedSearched(this.search, element))
+                }/*,
+                searches: function () {	//filter function
+                    return this.search.split(" ");
+                }*/
+            },
+            mounted: function() {
+                let main = new Main(this);
+                document.querySelector(".spinner-container").classList.toggle("hide");
+                document.querySelector(".div_to_scroll").classList.toggle("undisplay");
+                // infinite progress here *************************************************************************************************
+            },
+            methods: {
+                updateDatas: function (callBack) {
+                    document.querySelector(".spinner-container").classList.toggle("hide");
+                    getDataServer((dataServer) => {
+                        callBack();
+                        document.querySelector(".spinner-container").classList.toggle("hide");
+                        this.datas = dataServer;
+                    });
+                }
+            }
+        })
+    }
+
+    function getDataServer(callBack) {
+        let xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function(event) {
+            if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+                callBack(JSON.parse(this.responseText));
+            }
+        };
+
+        xhr.open('GET', './cors/functions/request.php', true);
+        xhr.send(null);
+    }
+
+    getDataServer(initVueJS);
 }
 
 //faire une fonction pour rechercher en fonction des split " "

@@ -23,7 +23,5 @@ $query = $bdd->query(
     LEFT OUTER JOIN publishers ON idPublisher = publishers.id
     GROUP BY videogames.ID;'
     );
-
-require_once "class/Games.php";
 $listGames = $query->fetchAll(PDO::FETCH_OBJ);
 require_once "json_manager.php";

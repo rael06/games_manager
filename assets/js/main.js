@@ -1,7 +1,7 @@
 "use strict";
 class Main {
 
-    constructor() {
+    constructor( vueJS ) {
         this.gameModalClose = this.gameModalClose.bind(this);
         this.gameDeleteConfirm = this.gameDeleteConfirm.bind(this);
         this.gameModalConfirm = this.gameModalConfirm.bind(this);
@@ -10,12 +10,14 @@ class Main {
         this.modalTemplateElement = null;
         this.gameModalElement = null;
         this.gameFormElement = null;
+        this.vueJS = vueJS;
         this.init();
     }
 
     init() { 
         this.modalManager();
         this.gameMainTableFixWidthScrollbar();
+        console.log(this.vueJS);
     }
 
     /*
@@ -54,19 +56,27 @@ class Main {
         this.gameModalElement.parentElement.removeChild(this.gameModalElement);
     }
 
+    
+    setGameModalWaiting() {
+        this.gameModalElement.style.pointerEvents = "none"
+        this.gameModalElement.style.opacity = "0.8";
+    }
+
     gameModalConfirm() {
-
+        //this.setGameModalWaiting();
         let gameFormData = this.getGameFormData();
-
         var xhr = new XMLHttpRequest();
         xhr.open("POST", this.webServiceURLGameDelete, true);
-        xhr.setRequestHeader( "Content-Type", "application/json" );
+        xhr.setRequestHeader("Content-Type", "application/json");
+        this.gameModalClose();
         xhr.onreadystatechange = () => {
             if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-                this.gameModalClose();
                 let response = JSON.parse(xhr.responseText);
+                console.log(response);
                 if (response.status) {
-                    window.location.reload();
+                    this.vueJS.updateDatas(() => {
+                        this.unCheckCheckedGameFormData();
+                    });
                 }
             }
         };
@@ -79,6 +89,16 @@ class Main {
         let values = [];
         checkedElements.forEach((elem) => {
             values.push(JSON.parse(elem.value));
+        });
+
+        return values;
+    }
+
+    unCheckCheckedGameFormData() {
+        let checkedElements = this.gameFormElement.querySelectorAll(".checkbox:checked");
+        let values = [];
+        checkedElements.forEach((elem) => {
+            elem.checked = false;
         });
 
         return values;
