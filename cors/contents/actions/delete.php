@@ -9,11 +9,7 @@ if(isset($_POST["game"])) {
         $game_number++;
         $_SESSION["game_id_" . $game_number] = $game->ID;
     }
-} else {
-    
 }
-
-die;
 ?>
 <div class="overlay"></div>
 <div class="pop_up">

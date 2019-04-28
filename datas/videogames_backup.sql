@@ -396,4 +396,4 @@ INSERT INTO `videogames` (`id`, `Title`, `ReleaseDate`, `idPlatform`, `Ref_games
 	(395, 'Mario Kart Wii', '27 April 2008', 22, 'WII372A', 20, 93),
 	(396, 'Metroid Prime 3: Corruption', '27 August 2007', 22, 'WII373A', 20, 103),
 	(397, 'Metroid: Other M', '31 August 2010', 22, 'WII374A', 20, 93),
-	(398, 'The Legend of Zelda: Twilight Princess', '19 November 2006', 22, 'WII375A', 20, 93);
+	(398, 'The Legend of Zelda: Twilight Princess', '19 November 2006', 22, 'WII375A', 20, 93);videogames
