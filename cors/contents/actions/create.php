@@ -5,7 +5,7 @@ $developers = get_column("developers");
 $platforms = get_column("platform");
 $kinds = get_column("genres");
 $publishers = get_column("publishers");
-$_SESSION["games"] = [];
+unset($_SESSION["games"]);
 $game_number = 1;
 $_SESSION["game_id_" . $game_number] = 1
 ?>
@@ -20,7 +20,7 @@ $_SESSION["game_id_" . $game_number] = 1
     </div>
     <div class="field">
         <label for="developer">Développeur :</label>
-        <select name="developer_<?= $game_number ?>">
+        <select name="developers_<?= $game_number ?>">
             <option type="text" value=""></option>
             <?php
             foreach ($developers as $developer) :
@@ -45,21 +45,8 @@ $_SESSION["game_id_" . $game_number] = 1
         </select>
     </div>
     <div class="field">
-        <label for="constructor">Constructeur :</label>
-        <select name="constructor_<?= $game_number ?>">
-            <option type="text" value=""></option>
-            <?php
-            foreach ($constructors as $constructor) :
-            ?>
-            <option type="text" value="<?= $constructor->name ?>"><?= $constructor->name ?></option>
-            <?php
-            endforeach;
-            ?>
-        </select>
-    </div>
-    <div class="field">
         <label for="publisher">Éditeur :</label>
-        <select name="publisher_<?= $game_number ?>">
+        <select name="publishers_<?= $game_number ?>">
             <option type="text" value=""></option>
             <?php
             foreach ($publishers as $publisher) :

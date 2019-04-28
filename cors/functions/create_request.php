@@ -13,7 +13,7 @@ function getReleaseDate() {
     return empty($g_releaseDate) ? "" : trim($g_day . $g_month . $g_year);
 }
 
-function getPostValues ($post) {
+function getPostValue ($post) {
     if (isset($_POST[$post . "_1"]) && !empty($_POST[$post . "_1"])) {
         $g_post = $_POST[$post . "_1"];
     } else {
@@ -22,12 +22,21 @@ function getPostValues ($post) {
     return $g_post;
 }
 
-$g_title = getPostValues("title");
+function getPostValueID ($post, $bdd) {
+    $postValue = getPostValue($post);
+    if($postValue !== "null") {
+        $id_query_str = "SELECT id FROM " . $post . " WHERE name = '" . $postValue . "'";
+        $id = $bdd->query($id_query_str)->fetch(PDO::FETCH_OBJ)->id;
+        return $id;
+    } else return $postValue;
+} 
+
+$g_title = getPostValue("title");
 $g_releaseDate = getReleaseDate();
-$g_developer_id = getPostValues("developer");
-$g_platform_id = getPostValues("platform");
-$g_publisher_id = getPostValues("publisher");
-$kinds = getPostValues("kinds");
+$g_developer_id = getPostValueID("developers", $bdd);
+$g_platform_id = getPostValueID("platform", $bdd);
+$g_publisher_id = getPostValueID("publishers", $bdd);
+$kinds = getPostValue("kinds");
 
 //kinds
 if (isset($_POST["kinds_1"])) {
@@ -45,9 +54,9 @@ if (isset($_POST["kinds_1"])) {
 
 $g_new_game_query_str = "INSERT INTO videogames (Title, ReleaseDate, idDeveloper, idPlatform, idPublisher) VALUES ('" . $g_title . "', '" . $g_releaseDate . "', " . $g_developer_id . ", " . $g_platform_id . ", " . $g_publisher_id . ")";
 $bdd->query($g_new_game_query_str);
-$new_game_id = $bdd->query("SELECT id FROM videogames ORDER BY id DESC LIMIT 1")->fetch()[0];
+$new_game_id = $bdd->query("SELECT id FROM videogames ORDER BY id DESC LIMIT 1")->fetch(PDO::FETCH_OBJ)->id;
 for ($k = 0; $k < count($kinds); $k++) {
     $g_new_game_gamesgenres_query_str = "INSERT INTO gamesgenres (idGenre, idVideoGame) VALUES (" . $g_kinds_id[$k] . ", " . $new_game_id . ")";
-    $bdd->query($g_new_game_gamesgenres_query_str);
+    var_dump($bdd->query($g_new_game_gamesgenres_query_str));
 }
 header("location: ../../index.php");
