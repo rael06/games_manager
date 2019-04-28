@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+[data-template] {
+    display: none!important;
+}
+
 .main_content {
     font-family: tahoma;
     /*background-image: url("../pictures/die_retry_background.jpg");*/
@@ -101,6 +105,56 @@ label {
     grid-gap: 5px;
 }
 
+.modal_global {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_global .close_background {
+    background-color: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.modal_global .modal_contents {
+    position: relative;
+    z-index: 2;
+    padding: 10px 10px;
+    margin: 0;
+    max-width: 760px;
+    max-height: 500px;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
+.modal_global .modal_header {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
 /* delete */
 .overlay {
     position: fixed;
@@ -161,20 +215,19 @@ label {
 }
 
 .close_button {
+    margin: 10px;
+    padding: 0 5px;
     text-align: center;
     color: white;
     background: rgb(155, 1, 1);
     border: 1px solid rgb(139, 139, 139);
     border-radius: 5px;
-    position: absolute;
-    width: 20px;
     height: 30px;
-    top: 10%;
-    right: 7.5%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    align-self: center;
 }
 
 /* table_display */

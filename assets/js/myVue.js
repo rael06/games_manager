@@ -59,6 +59,10 @@ window.onload = function () {
             searches: function () {	//filter function
                 return this.search.split(" ");
             }*/
+        },
+        mounted: () => {
+            let main = new Main();
+            // infinite progress here *************************************************************************************************
         }
     })
 }

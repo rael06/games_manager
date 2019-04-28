@@ -8,7 +8,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Driving, Music, Fighting, Flight Simulation, FPS, Entertainment, Adventure, Battle, Action, Platformer, Party, Racing, Hunting, Hack & Slash, Simulation",
+        "Kinds": "Racing, Simulation",
         "Publishers": "Sega"
     },
     {
@@ -20,7 +20,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Racing, Hunting, Hack & Slash, Simulation, Driving, Music, Fighting, Flight Simulation, FPS, Entertainment, Adventure, Battle, Action, Platformer, Party",
+        "Kinds": "Racing, Simulation",
         "Publishers": "Sega"
     },
     {
@@ -32,7 +32,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Survival Horror, Adventure",
+        "Kinds": "Adventure, Survival Horror",
         "Publishers": "Infogrames"
     },
     {
@@ -152,7 +152,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Adventure, Shooter",
+        "Kinds": "Shooter, Adventure",
         "Publishers": "Acclaim"
     },
     {
@@ -200,7 +200,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Shooter, Strategy",
+        "Kinds": "Strategy, Shooter",
         "Publishers": "TalonSoft"
     },
     {
@@ -296,7 +296,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Action, Sports",
+        "Kinds": "Sports, Action",
         "Publishers": "Sega"
     },
     {
@@ -308,7 +308,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Sports, Action",
+        "Kinds": "Action, Sports",
         "Publishers": "Sega"
     },
     {
@@ -332,7 +332,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Shooter, Action",
+        "Kinds": "Action, Shooter",
         "Publishers": "Sega"
     },
     {
@@ -416,7 +416,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Action, Strategy",
+        "Kinds": "Strategy, Action",
         "Publishers": "Jack Of All Games"
     },
     {
@@ -500,7 +500,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "RPG, Adventure, Action\/Adventure, Action",
+        "Kinds": "Action, RPG, Adventure, Action\/Adventure",
         "Publishers": "Sega"
     },
     {
@@ -560,7 +560,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Adventure, Platformer",
+        "Kinds": "Platformer, Adventure",
         "Publishers": "Sega"
     },
     {
@@ -728,7 +728,7 @@ var datas = [
         "Platform": "Dreamcast",
         "Abbreviation": "DCA",
         "Constructor": "Sega",
-        "Kinds": "Simulation, Fighting",
+        "Kinds": "Fighting, Simulation",
         "Publishers": "Sega"
     },
     {
@@ -1688,7 +1688,7 @@ var datas = [
         "Platform": "Mega Drive",
         "Abbreviation": "MGD",
         "Constructor": "Sega",
-        "Kinds": "Action, Adventure, Platformer, Action\/Adventure",
+        "Kinds": "Action\/Adventure, Action, Adventure, Platformer",
         "Publishers": "Sega"
     },
     {
@@ -1748,7 +1748,7 @@ var datas = [
         "Platform": "Mega Drive",
         "Abbreviation": "MGD",
         "Constructor": "Sega",
-        "Kinds": "Adventure, Action",
+        "Kinds": "Action, Adventure",
         "Publishers": "Sega"
     },
     {
