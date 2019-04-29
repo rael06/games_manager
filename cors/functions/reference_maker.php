@@ -1,5 +1,4 @@
 <?php
-session_start();
 // references
     function games_reference($array) {
         $letter = "A";
