@@ -17,7 +17,7 @@ class Main {
     init() { 
         this.modalManager();
         this.gameMainTableFixWidthScrollbar();
-        console.log(this.vueJS);
+        //console.log(this.vueJS);
     }
 
     /*

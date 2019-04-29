@@ -1,16 +1,18 @@
 <?php
+include "./request.php";
+include "./reference_maker.php";
+include "./request.php";
 
 function requestJson($array) {
 
-    include "reference_maker.php";
 
 
 
-    $jsonStrPretty = json_encode($array, JSON_PRETTY_PRINT);
+    $jsonStr = json_encode($array);
     if (json_last_error_msg() > 0) {
         var_dump(json_last_error_msg());
     }
-    return $jsonStrPretty;
+    return $jsonStr;
 }
 
-print( requestJson($listGames) );
+print( requestJson($_SESSION["listGames"]) );

@@ -63,6 +63,8 @@ window.onload = function () {
             },
             mounted: function() {
                 let main = new Main(this);
+                console.log(this);
+                
                 document.querySelector(".spinner-container").classList.toggle("hide");
                 document.querySelector(".div_to_scroll").classList.toggle("undisplay");
                 // infinite progress here *************************************************************************************************
@@ -76,6 +78,7 @@ window.onload = function () {
                         this.datas = dataServer;
                     });
                 }
+                // need on keydown (space bar) split this.search
             }
         })
     }
@@ -85,10 +88,12 @@ window.onload = function () {
         xhr.onreadystatechange = function(event) {
             if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
                 callBack(JSON.parse(this.responseText));
+                console.log(this.responseText);
+                
             }
         };
 
-        xhr.open('GET', './cors/functions/request.php', true);
+        xhr.open('GET', './cors/functions/json_manager.php', true);
         xhr.send(null);
     }
 
