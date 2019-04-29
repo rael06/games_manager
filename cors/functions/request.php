@@ -24,4 +24,5 @@ $query = $bdd->query(
     GROUP BY videogames.ID;'
     );
 $listGames = $query->fetchAll(PDO::FETCH_OBJ);
+$_SESSION["listGames"] = $listGames;
 require_once "json_manager.php";

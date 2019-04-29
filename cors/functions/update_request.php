@@ -76,6 +76,7 @@ function getGenericDatasFromTableID($bdd, $tableName, $field, $fieldName) {
 }
 
 
+include "./reference_maker.php";
 unset($_SESSION["games"]);
 header("location:../../index.php");
 

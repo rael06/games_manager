@@ -59,4 +59,5 @@ for ($k = 0; $k < count($kinds); $k++) {
     $g_new_game_gamesgenres_query_str = "INSERT INTO gamesgenres (idGenre, idVideoGame) VALUES (" . $g_kinds_id[$k] . ", " . $new_game_id . ")";
     var_dump($bdd->query($g_new_game_gamesgenres_query_str));
 }
+
 header("location: ../../index.php");
