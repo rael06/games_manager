@@ -328,6 +328,7 @@ label {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .table_full {
@@ -373,7 +374,7 @@ label {
 }
 
 .div_to_scroll { /*toscrolltablebody*/
-    height: 80vh;
+    height: 70vh;
     overflow-y: scroll;
     border-bottom-left-radius: 10px;
 }
