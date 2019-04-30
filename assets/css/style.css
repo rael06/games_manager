@@ -258,7 +258,6 @@ label {
     -o-border-radius: 3px;
 }
 
-
 .modal_global .modal_header {
     height: 40px;
     display: flex;
@@ -352,6 +351,10 @@ label {
     align-items: center;
     display: grid;
     justify-content: center;
+}
+
+.table_header th {
+    cursor: pointer;
 }
 
 .table_header {

@@ -21,15 +21,15 @@
                         <thead>
                             <tr>
                                 <th class="checkbox"></th>
-                                <th class="ids">ID</th>
-                                <th class="titles"><span>Titre</span></th>
-                                <th class="dates">Date de sortie</th>
-                                <th class="developers">Développeur</th>
-                                <th class="platforms">Console</th>
-                                <th class="constructors">Constructeur</th>
-                                <th class="kinds">Genre</th>
-                                <th class="publishers">Éditeur</th>
-                                <th class="references">Référence</th>
+                                <th class="ids" @click="sort" value="ID">ID</th>
+                                <th class="titles" @click="sort" value="Title"><span>Titre</span></th>
+                                <th class="dates" @click="sort" value="ReleaseDate">Date de sortie</th>
+                                <th class="developers" @click="sort" value="Developers">Développeur</th>
+                                <th class="platforms" @click="sort" value="Platform">Console</th>
+                                <th class="constructors" @click="sort" value="Constructor">Constructeur</th>
+                                <th class="kinds" @click="sort" value="Kinds">Genre</th>
+                                <th class="publishers" @click="sort" value="Publishers">Éditeur</th>
+                                <th class="references" @click="sort" value="References">Référence</th>
                             </tr> 
                         </thead>
                     </table>
