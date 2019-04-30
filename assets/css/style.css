@@ -355,6 +355,21 @@ label {
 
 .table_header th {
     cursor: pointer;
+    text-decoration: underline;
+}
+
+.table_header th:hover {
+    background-color: rgb(65, 16, 16);
+    border-radius: inherit;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+}
+
+.table_header th:nth-of-type(1):hover {
+    background: unset;
+    cursor: unset;
 }
 
 .table_header {
@@ -388,6 +403,7 @@ input[type="checkbox"] {
 }
 .table_body {
     background: rgb(243, 211, 211);
+    width: 100%;
 }
 
 .table_body tr:nth-of-type(2n) {

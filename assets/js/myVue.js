@@ -145,7 +145,7 @@ window.onload = function () {
             },
             computed: {
                 filtered: function () {	//filter function
-                    return this.datas.filter(element => containedSearched(this.search, element))
+                    return this.datas.filter(element => containedSearched(this.search, element));
                 }/*,
                 searches: function () {	//filter function
                     return this.search.split(" ");
@@ -171,7 +171,19 @@ window.onload = function () {
                 sort: function () {
                     this.datasSorted = sortedDatas(this.datas, event);
                     //console.log(event);
-                }
+                }/*,
+                splitOnSpaceBar: function (event) {
+                    let key = event.which;
+                    console.log(key);
+                    
+                        if (key = 32) {
+                            this.search = this.search.split(" ");
+                            console.log(this.search);
+                            
+                        }
+                    }
+                */
+                
                 /*
                 ,
                 sortedGameDatabase: function () {	//sorted database
